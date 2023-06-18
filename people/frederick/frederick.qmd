@@ -1,5 +1,5 @@
 ---
-title: 'Frederick'
+title: 'Frederick Anyan'
 image: "fred.png"
 categories: [SEM, Panel Data, MLM/HLM, RStudio, JASP, Network Analysis]
 ---

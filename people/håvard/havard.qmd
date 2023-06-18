@@ -1,5 +1,5 @@
 ---
-title: 'Håvard R. Karlsen'
+title: 'Håvard Rudi Karlsen'
 image: "hrk.png"
 categories: [Statistics, Psychometrics]
 ---
