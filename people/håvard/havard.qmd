@@ -1,0 +1,20 @@
+---
+title: 'Håvard R. Karlsen'
+image: "hrk.png"
+categories: [Statistics, Psychometrics]
+---
+Håvard is an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it's complicated). 
+
+Lately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology.
+
+## Areas of expertise
+In terms of statistics, I'm familiar with regression analysis (simple, multiple, logistic) and structural equation modelling, as well as t tests, ANOVA, chi square tests, correlation analysis and factor analysis (confirmatory and exploratory). I have some limited experience in big data analysis and machine learning, and am looking into working more on this. I mainly use R for analysis (as well as write up and publishing), but have in the past used Stata and SPSS, as well as some Python.
+
+## Supervision
+I have supervised bachelor's and master's students, and I have taught in bachelor, master and PhD courses. In 2020 I won a price for research dissemination.
+
+Are you writing a master's thesis at the department and in need of a supervisor? If you have a good idea for a project that falls within my areas of expertise, shoot me an e-mail and we can discuss the idea and whether you want me as your supervisor. I currently have no open projects in need of a student, but I'm always up for discussion any ideas you might have.
+
+Are you dreaming of becoming a PhD student? Again, if you have a good idea, don't hesitate to get in touch. The road to funding and a position is long, but if you succeed it's worth it!
+
+[Personal website](https://hkarlsen.rbind.io/about/)

@@ -1,0 +1,8 @@
+---
+title: 'Matthias Mittner'
+image: "mathias.jpg"
+categories: [Statistics]
+---
+Mathias is a Professor of 
+
+[Personal website](https://en.uit.no/ansatte/person?p_document_id=372933&p_dimension_id=209271)

@@ -1,0 +1,9 @@
+---
+title: 'Trond Løkling'
+image: "trond.png"
+categories: []
+---
+
+Trond is a 
+
+[Personal website](https://www.nord.no/om/ansatte/trond-lokling)

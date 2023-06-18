@@ -1,0 +1,32 @@
+---
+title: "About"
+about: 
+  template: jolla
+  links: 
+    - icon: envelope
+      text: Email
+      href: mailto:mehmetm@ntnu.no
+    - icon: github
+      text: Github
+      href: https://github.com/frederickanyan/qmrg
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/
+---
+Our main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis. 
+
+## Scope and research focus
+<ul>The QMRG encompasses a broad range of topics in design and quantitative data analysis with a particular focus on developing new statistical software packages and programming applications for popular statistical software such as R, Stata and Mplus, and the application of advanced statistical techniques, covering structural equation modelling (both CB-SEM and PLS-SEM) and multilevel modelling (MLM) for panel research and intensive longitudinal designs in the psychological sciences.</ul> 
+
+## Specific aims and objectives
+  <ul>
+      <li>Our work aims to promote quality teaching in quantitative methods and statistical              modelling.</li>
+      <li>Our research and innovation activities include developing statistical software packages         and programming applications for quantitative data analysis.</li>
+      <li>Research at the QMRG covers aligning data types, research questions and underlying             statistical models to ensure practical and thoughtful applications to theoretical models,         and the accurate interpretation of fitted models to empirical data.</li>
+      <li>The QMRG aims to promote the quality of research design and methods, reproducible             research practices, and statistical thinking and awareness throughout the research               process.</li>
+  </ul>
+
+## Seminars and Workshops
+The QMRG organizes the Quantitative Seminar Series in Psychology, which comprises a broad range of in-person and online quantitative methods and statistical modelling workshops and seminars. 
+
+Workshops and seminars at QMRG cover an array of topics, methods, and software that are applied across different research areas, including, but not limited to, R/Stata programming, panel and intensive longitudinal designs, structural equation modelling, multilevel modelling, mixture modelling, Reproducible/automated reporting, among others. 

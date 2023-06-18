@@ -1,0 +1,21 @@
+---
+title: "Quantitative Methods Research Group"
+#image: images/profile.png
+about:
+  template: jolla
+  image-shape: round
+  links: 
+    - icon: envelope
+      text: Contact
+      href: mailto:mehmetm@ntnu.no
+    - icon: github
+      text: Github
+      href: https://github.com/frederickanyan/qmrg.git
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/
+
+---
+[The Quantitative Methods Research Group (QMRG)](https://www.ntnu.edu/web/psychology/the-quantitative-methods-research-group) is a specialized research group which centers on the development and advanced applications of quantitative methods and statistical modelling for the psychological sciences. The QMRG is based in the [Department of Psychology](https://www.ntnu.edu/psychology) at the [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu). 
+
+Our main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis. 

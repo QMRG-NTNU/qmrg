@@ -1,0 +1,10 @@
+---
+title: 'Mons Bendixen'
+image: "mons.jpg"
+categories: [Statistics]
+---
+Main areas of interest: Evolutionary social psychology, jealousy and forgiveness, sexual regret, sexual misperception, flirt, sexual harassment, bullying, ostracism, antisocial and aggressive behavior.
+
+[Download CV](../people/mons/monscv.pdf)
+
+[Personal website](https://www.ntnu.edu/employees/mons.bendixen)

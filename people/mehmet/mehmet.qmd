@@ -1,0 +1,26 @@
+---
+title: 'Mehmet Mehmetoglu'
+image: "mehmet.jpeg"
+categories: [SEM, Stata, RStudio, Programming, Packages]
+---
+Mehmet is a professor in the Department of Psychology at the Norwegian University of Science and Technology in the city of Trondheim in Norway. He additionally holds a Professor II position at the Inland Norway University of Applied Sciences.
+
+Mehmet has a fairly varied academic background, on the basis of which I have been awarded professorships in the following fields:
+<ul>
+  <li>Psychology (2020)</li> 
+  <li>Marketing (2019)</li> 
+  <li>Quantitative Research Methods (2012)</li> 
+  <li>Tourism (2007)</li> 
+</ul>
+ 
+
+My academic and research interests centre on:
+
+<ul>
+  <li>Programming R and Stata Statistical Packages</li> 
+  <li>Structural Equation Modelling</li> 
+  <li>Human Mate Choice Behaviour</li> 
+  <li>Consumer and Tourist Behaviour</li> 
+</ul>
+
+[Personal website](https://folk.ntnu.no/mehmetm/web/_site/index.html)

@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Quantitative Methods Research Group"
+    
+  
+  search: 
+    location: navbar
+    type: textbox
+    
+  navbar:
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Books
+        href: books.qmd
+      - text: Articles
+        href: articles.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Packages
+        href: packages.qmd
+      - text: ShinyApps
+        href: shinyapps.qmd
+     
+    
+    right:
+      - about.qmd
+      - text: People
+        href: people.qmd
+      - icon: github
+        href: https://github.com/frederickanyan
+      - icon: twitter
+        href: https://twitter.com/@anyan4usall
+      
+format:
+  html:
+    theme: flatly
+    link-external-newwindow: true
+    link-external-icon: false
+    css: styles.css
+    toc: true
+
+
+

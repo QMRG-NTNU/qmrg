@@ -1,0 +1,34 @@
+[
+  {
+    "listing": "/books.html",
+    "items": []
+  },
+  {
+    "listing": "/articles.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/packages.html",
+    "items": []
+  },
+  {
+    "listing": "/shinyapps.html",
+    "items": []
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/prasad/prasad.html",
+      "/people/mons/mons.html",
+      "/people/frederick/frederick.html",
+      "/people/mehmet/mehmet.html",
+      "/people/trond/trond.html",
+      "/people/mathias/mathias.html",
+      "/people/håvard/havard.html"
+    ]
+  }
+]
