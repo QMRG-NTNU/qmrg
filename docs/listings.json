@@ -22,13 +22,13 @@
   {
     "listing": "/people.html",
     "items": [
+      "/people/hrudi/havard.html",
       "/people/prasad/prasad.html",
       "/people/mons/mons.html",
       "/people/frederick/frederick.html",
       "/people/mehmet/mehmet.html",
       "/people/trond/trond.html",
-      "/people/mathias/mathias.html",
-      "/people/håvard/havard.html"
+      "/people/mathias/mathias.html"
     ]
   }
 ]
