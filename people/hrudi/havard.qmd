@@ -1,9 +1,9 @@
 ---
 title: 'Håvard Rudi Karlsen'
 image: "hrk.png"
-categories: [Statistics, Psychometrics]
+categories: [Statistics, Psychometrics, RStudio, SEM]
 ---
-Håvard is an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it's complicated). 
+I am an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it's complicated). 
 
 Lately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology.
 
