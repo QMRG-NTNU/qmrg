@@ -72,21 +72,21 @@
   {
     "objectID": "people/hrudi/havard.html",
     "href": "people/hrudi/havard.html",
-    "title": "Håvard Rudi Karlsen",
+    "title": "Håvard R. Karlsen",
     "section": "",
-    "text": "Håvard is an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it’s complicated).\nLately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology."
+    "text": "I am an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it’s complicated).\nLately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology."
   },
   {
     "objectID": "people/hrudi/havard.html#areas-of-expertise",
     "href": "people/hrudi/havard.html#areas-of-expertise",
-    "title": "Håvard Rudi Karlsen",
+    "title": "Håvard R. Karlsen",
     "section": "Areas of expertise",
     "text": "Areas of expertise\nIn terms of statistics, I’m familiar with regression analysis (simple, multiple, logistic) and structural equation modelling, as well as t tests, ANOVA, chi square tests, correlation analysis and factor analysis (confirmatory and exploratory). I have some limited experience in big data analysis and machine learning, and am looking into working more on this. I mainly use R for analysis (as well as write up and publishing), but have in the past used Stata and SPSS, as well as some Python."
   },
   {
     "objectID": "people/hrudi/havard.html#supervision",
     "href": "people/hrudi/havard.html#supervision",
-    "title": "Håvard Rudi Karlsen",
+    "title": "Håvard R. Karlsen",
     "section": "Supervision",
     "text": "Supervision\nI have supervised bachelor’s and master’s students, and I have taught in bachelor, master and PhD courses. In 2020 I won a price for research dissemination.\nAre you writing a master’s thesis at the department and in need of a supervisor? If you have a good idea for a project that falls within my areas of expertise, shoot me an e-mail and we can discuss the idea and whether you want me as your supervisor. I currently have no open projects in need of a student, but I’m always up for discussion any ideas you might have.\nAre you dreaming of becoming a PhD student? Again, if you have a good idea, don’t hesitate to get in touch. The road to funding and a position is long, but if you succeed it’s worth it!\nPersonal website"
   },
@@ -137,6 +137,20 @@
     "href": "people.html",
     "title": "Quantitative Methods Research Group",
     "section": "",
-    "text": "Håvard Rudi Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Frederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\nRStudio\n\n\nSEM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "Readme",
+    "section": "",
+    "text": "Readme\nThis is the webpage for the QMRG research group of NTNU."
+  },
+  {
+    "objectID": "people/matthias/matthias.html",
+    "href": "people/matthias/matthias.html",
+    "title": "Matthias Mittner",
+    "section": "",
+    "text": "Matthias Mittner is a professor and leader of the research group for cognitive neuroscience at the University of Tromsø and a professor of quantitative research methods at the Norwegian University of Science and Technology in Norway. He has broad experience teaching university courses in statistics and research methods ranging from introductory to advanced topics both at the Bachelor, Master and PhD-level. His main research interests are centered on the neurobiology of cognitive functions and he is also interested in the development of methodological approaches and computational methods, cognitive modeling, machine-learning and Bayesian statistics. Matthias has studied psychology and computer science and completed his PhD in psychology at the University of Frankfurt (Germany). He has previously worked as a post-doc at the Max-Planck Institutes for Dynamics and Self-Organization as well as the MPI for experimental medicine and the University of Amsterdam (The Netherlands).\n\nPersonal website\nProfessional website at UiT\nProfessional website at NTNU\nLab website"
   }
 ]
