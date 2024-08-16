@@ -1,34 +1,14 @@
 [
   {
-    "listing": "/best.html",
-    "items": [
-      "/best/short_guidelines/guidelines.html",
-      "/best/Recommended_packages/Recommended_packages.html",
-      "/best/Why_use_scripting/scripting.html",
-      "/best/Structuring_R_projects/Struturing_projects.html",
-      "/best/New_to_stats/new_to_stats.html",
-      "/best/SPSS_user/SPSS_users.html",
-      "/best/Humor/humor.html"
-    ]
+    "listing": "/articles.html",
+    "items": []
   },
   {
     "listing": "/books.html",
     "items": []
   },
   {
-    "listing": "/articles.html",
-    "items": []
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
     "listing": "/packages.html",
-    "items": []
-  },
-  {
-    "listing": "/shinyapps.html",
     "items": []
   },
   {
@@ -40,46 +20,27 @@
       "/people/frederick/frederick.html",
       "/people/mehmet/mehmet.html",
       "/people/trond/trond.html",
-      "/people/mathias/mathias.html",
-      "/qmrg/people/frederick/frederick.html",
-      "/qmrg/people/hrudi/havard.html",
-      "/qmrg/people/matthias/matthias.html",
-      "/qmrg/people/mehmet/mehmet.html",
-      "/qmrg/people/mons/mons.html",
-      "/qmrg/people/prasad/prasad.html",
-      "/qmrg/people/trond/trond.html"
+      "/people/mathias/mathias.html"
     ]
   },
   {
-    "listing": "/qmrg/articles.html",
+    "listing": "/projects.html",
     "items": []
   },
   {
-    "listing": "/qmrg/books.html",
+    "listing": "/shinyapps.html",
     "items": []
   },
   {
-    "listing": "/qmrg/packages.html",
-    "items": []
-  },
-  {
-    "listing": "/qmrg/people.html",
+    "listing": "/best.html",
     "items": [
-      "/qmrg/people/frederick/frederick.html",
-      "/qmrg/people/hrudi/havard.html",
-      "/qmrg/people/matthias/matthias.html",
-      "/qmrg/people/mehmet/mehmet.html",
-      "/qmrg/people/mons/mons.html",
-      "/qmrg/people/prasad/prasad.html",
-      "/qmrg/people/trond/trond.html"
+      "/best/short_guidelines/guidelines.html",
+      "/best/Recommended_packages/Recommended_packages.html",
+      "/best/Why_use_scripting/scripting.html",
+      "/best/Structuring_R_projects/Struturing_projects.html",
+      "/best/New_to_stats/new_to_stats.html",
+      "/best/SPSS_user/SPSS_users.html",
+      "/best/Humor/humor.html"
     ]
-  },
-  {
-    "listing": "/qmrg/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/qmrg/shinyapps.html",
-    "items": []
   }
 ]
