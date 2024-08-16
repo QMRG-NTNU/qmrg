@@ -1,0 +1,5 @@
+---
+title: 'Are you an SPSS user? Look here'
+image: ""
+categories: [SPSS, RStudio]
+---

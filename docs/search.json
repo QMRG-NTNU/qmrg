@@ -35,6 +35,13 @@
     "text": "Seminars and Workshops\nThe QMRG organizes the Quantitative Seminar Series in Psychology, which comprises a broad range of in-person and online quantitative methods and statistical modelling workshops and seminars.\nWorkshops and seminars at QMRG cover an array of topics, methods, and software that are applied across different research areas, including, but not limited to, R/Stata programming, panel and intensive longitudinal designs, structural equation modelling, multilevel modelling, mixture modelling, Reproducible/automated reporting, among others."
   },
   {
+    "objectID": "best.html",
+    "href": "best.html",
+    "title": "QMRG’s Tips & Best Practices",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nGuidelines for employees\n\n\n\nIPS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecommended packages for R\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy use scripting\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here\n\n\n\nSEM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Books",
@@ -72,21 +79,21 @@
   {
     "objectID": "people/hrudi/havard.html",
     "href": "people/hrudi/havard.html",
-    "title": "Håvard R. Karlsen",
+    "title": "Håvard Rudi Karlsen",
     "section": "",
-    "text": "I am an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it’s complicated).\nLately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology."
+    "text": "Håvard is an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it’s complicated).\nLately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology."
   },
   {
     "objectID": "people/hrudi/havard.html#areas-of-expertise",
     "href": "people/hrudi/havard.html#areas-of-expertise",
-    "title": "Håvard R. Karlsen",
+    "title": "Håvard Rudi Karlsen",
     "section": "Areas of expertise",
     "text": "Areas of expertise\nIn terms of statistics, I’m familiar with regression analysis (simple, multiple, logistic) and structural equation modelling, as well as t tests, ANOVA, chi square tests, correlation analysis and factor analysis (confirmatory and exploratory). I have some limited experience in big data analysis and machine learning, and am looking into working more on this. I mainly use R for analysis (as well as write up and publishing), but have in the past used Stata and SPSS, as well as some Python."
   },
   {
     "objectID": "people/hrudi/havard.html#supervision",
     "href": "people/hrudi/havard.html#supervision",
-    "title": "Håvard R. Karlsen",
+    "title": "Håvard Rudi Karlsen",
     "section": "Supervision",
     "text": "Supervision\nI have supervised bachelor’s and master’s students, and I have taught in bachelor, master and PhD courses. In 2020 I won a price for research dissemination.\nAre you writing a master’s thesis at the department and in need of a supervisor? If you have a good idea for a project that falls within my areas of expertise, shoot me an e-mail and we can discuss the idea and whether you want me as your supervisor. I currently have no open projects in need of a student, but I’m always up for discussion any ideas you might have.\nAre you dreaming of becoming a PhD student? Again, if you have a good idea, don’t hesitate to get in touch. The road to funding and a position is long, but if you succeed it’s worth it!\nPersonal website"
   },
@@ -135,22 +142,155 @@
   {
     "objectID": "people.html",
     "href": "people.html",
-    "title": "Quantitative Methods Research Group",
+    "title": "People",
     "section": "",
-    "text": "Frederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\nRStudio\n\n\nSEM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Håvard Rudi Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\nRStudio\n\n\nSEM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "readme.html",
-    "href": "readme.html",
+    "objectID": "qmrg/about.html",
+    "href": "qmrg/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Our main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis."
+  },
+  {
+    "objectID": "qmrg/about.html#scope-and-research-focus",
+    "href": "qmrg/about.html#scope-and-research-focus",
+    "title": "About",
+    "section": "Scope and research focus",
+    "text": "Scope and research focus\n\nThe QMRG encompasses a broad range of topics in design and quantitative data analysis with a particular focus on developing new statistical software packages and programming applications for popular statistical software such as R, Stata and Mplus, and the application of advanced statistical techniques, covering structural equation modelling (both CB-SEM and PLS-SEM) and multilevel modelling (MLM) for panel research and intensive longitudinal designs in the psychological sciences."
+  },
+  {
+    "objectID": "qmrg/about.html#specific-aims-and-objectives",
+    "href": "qmrg/about.html#specific-aims-and-objectives",
+    "title": "About",
+    "section": "Specific aims and objectives",
+    "text": "Specific aims and objectives\n\n\nOur work aims to promote quality teaching in quantitative methods and statistical modelling.\n\n\nOur research and innovation activities include developing statistical software packages and programming applications for quantitative data analysis.\n\n\nResearch at the QMRG covers aligning data types, research questions and underlying statistical models to ensure practical and thoughtful applications to theoretical models, and the accurate interpretation of fitted models to empirical data.\n\n\nThe QMRG aims to promote the quality of research design and methods, reproducible research practices, and statistical thinking and awareness throughout the research process."
+  },
+  {
+    "objectID": "qmrg/about.html#seminars-and-workshops",
+    "href": "qmrg/about.html#seminars-and-workshops",
+    "title": "About",
+    "section": "Seminars and Workshops",
+    "text": "Seminars and Workshops\nThe QMRG organizes the Quantitative Seminar Series in Psychology, which comprises a broad range of in-person and online quantitative methods and statistical modelling workshops and seminars.\nWorkshops and seminars at QMRG cover an array of topics, methods, and software that are applied across different research areas, including, but not limited to, R/Stata programming, panel and intensive longitudinal designs, structural equation modelling, multilevel modelling, mixture modelling, Reproducible/automated reporting, among others."
+  },
+  {
+    "objectID": "qmrg/articles.html",
+    "href": "qmrg/articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "qmrg/books.html",
+    "href": "qmrg/books.html",
+    "title": "Books",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "qmrg/index.html",
+    "href": "qmrg/index.html",
+    "title": "Quantitative Methods Research Group",
+    "section": "",
+    "text": "The Quantitative Methods Research Group (QMRG) is a specialized research group which centers on the development and advanced applications of quantitative methods and statistical modelling for the psychological sciences. The QMRG is based in the Department of Psychology at the Norwegian University of Science and Technology (NTNU).\nOur main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis."
+  },
+  {
+    "objectID": "qmrg/packages.html",
+    "href": "qmrg/packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "qmrg/people.html",
+    "href": "qmrg/people.html",
+    "title": "Quantitative Methods Research Group",
+    "section": "",
+    "text": "Frederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\nRStudio\n\n\nSEM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "qmrg/people/frederick/frederick.html",
+    "href": "qmrg/people/frederick/frederick.html",
+    "title": "Frederick Anyan",
+    "section": "",
+    "text": "Frederick is an Associate Professor of Quantitative Methods and co-leader of the Quantitative Methods Research Group (QMRG) at the Norwegian University of Science and Technology, NTNU\nHis background in applied analysis in panel and intensive longitudinal data, as well as structural equation modelling (SEM) and hierarchical linear modelling (HLM) enables his participation in research to uncover subtle patterns in complex data sets, teasing apart minute details to reveal crucial insights that could inform effective interventions.\nPersonal website"
+  },
+  {
+    "objectID": "qmrg/people/hrudi/havard.html",
+    "href": "qmrg/people/hrudi/havard.html",
+    "title": "Håvard R. Karlsen",
+    "section": "",
+    "text": "I am an Associate Professor of Personality Psychology and Psychometrics. This means that I do research on individual differences and what makes us behave as we do. And that I am especially interested in the methods and instruments we use to examine this. Apart from that, I have worked within health psychology, looking at anxiety and depression and their relationship with cardiovascular disease (spoiler warning: it’s complicated).\nLately I have been lucky enough to work with VR technologies and their use in teaching and skill development. I teach statistics, personality psychology, work and organisational psychology as well as health psychology."
+  },
+  {
+    "objectID": "qmrg/people/hrudi/havard.html#areas-of-expertise",
+    "href": "qmrg/people/hrudi/havard.html#areas-of-expertise",
+    "title": "Håvard R. Karlsen",
+    "section": "Areas of expertise",
+    "text": "Areas of expertise\nIn terms of statistics, I’m familiar with regression analysis (simple, multiple, logistic) and structural equation modelling, as well as t tests, ANOVA, chi square tests, correlation analysis and factor analysis (confirmatory and exploratory). I have some limited experience in big data analysis and machine learning, and am looking into working more on this. I mainly use R for analysis (as well as write up and publishing), but have in the past used Stata and SPSS, as well as some Python."
+  },
+  {
+    "objectID": "qmrg/people/hrudi/havard.html#supervision",
+    "href": "qmrg/people/hrudi/havard.html#supervision",
+    "title": "Håvard R. Karlsen",
+    "section": "Supervision",
+    "text": "Supervision\nI have supervised bachelor’s and master’s students, and I have taught in bachelor, master and PhD courses. In 2020 I won a price for research dissemination.\nAre you writing a master’s thesis at the department and in need of a supervisor? If you have a good idea for a project that falls within my areas of expertise, shoot me an e-mail and we can discuss the idea and whether you want me as your supervisor. I currently have no open projects in need of a student, but I’m always up for discussion any ideas you might have.\nAre you dreaming of becoming a PhD student? Again, if you have a good idea, don’t hesitate to get in touch. The road to funding and a position is long, but if you succeed it’s worth it!\nPersonal website"
+  },
+  {
+    "objectID": "qmrg/people/matthias/matthias.html",
+    "href": "qmrg/people/matthias/matthias.html",
+    "title": "Matthias Mittner",
+    "section": "",
+    "text": "Matthias Mittner is a professor and leader of the research group for cognitive neuroscience at the University of Tromsø and a professor of quantitative research methods at the Norwegian University of Science and Technology in Norway. He has broad experience teaching university courses in statistics and research methods ranging from introductory to advanced topics both at the Bachelor, Master and PhD-level. His main research interests are centered on the neurobiology of cognitive functions and he is also interested in the development of methodological approaches and computational methods, cognitive modeling, machine-learning and Bayesian statistics. Matthias has studied psychology and computer science and completed his PhD in psychology at the University of Frankfurt (Germany). He has previously worked as a post-doc at the Max-Planck Institutes for Dynamics and Self-Organization as well as the MPI for experimental medicine and the University of Amsterdam (The Netherlands).\n\nPersonal website\nProfessional website at UiT\nProfessional website at NTNU\nLab website"
+  },
+  {
+    "objectID": "qmrg/people/mehmet/mehmet.html",
+    "href": "qmrg/people/mehmet/mehmet.html",
+    "title": "Mehmet Mehmetoglu",
+    "section": "",
+    "text": "Mehmet is a professor in the Department of Psychology at the Norwegian University of Science and Technology in the city of Trondheim in Norway. He additionally holds a Professor II position at the Inland Norway University of Applied Sciences.\nMehmet has a fairly varied academic background, on the basis of which I have been awarded professorships in the following fields:\n\n\nPsychology (2020)\n\n\nMarketing (2019)\n\n\nQuantitative Research Methods (2012)\n\n\nTourism (2007)\n\n\nMy academic and research interests centre on:\n\n\nProgramming R and Stata Statistical Packages\n\n\nStructural Equation Modelling\n\n\nHuman Mate Choice Behaviour\n\n\nConsumer and Tourist Behaviour\n\n\nPersonal website"
+  },
+  {
+    "objectID": "qmrg/people/mons/mons.html",
+    "href": "qmrg/people/mons/mons.html",
+    "title": "Mons Bendixen",
+    "section": "",
+    "text": "Main areas of interest: Evolutionary social psychology, jealousy and forgiveness, sexual regret, sexual misperception, flirt, sexual harassment, bullying, ostracism, antisocial and aggressive behavior.\nDownload CV\nPersonal website"
+  },
+  {
+    "objectID": "qmrg/people/prasad/prasad.html",
+    "href": "qmrg/people/prasad/prasad.html",
+    "title": "Subramanya Prasad Chandrashekar",
+    "section": "",
+    "text": "I am currently a postdoctoral fellow in the Department of Psychology at the Norwegian University of Science and Technology (NTNU). My research focuses on: Judgment and Decision Making; Choice, agency, and related lay-beliefs (e.g. belief in free will); Moral psychology; Replication; Open science. I received my Ph.D. in Management (Organizational behaviour track) from the Hong Kong University of Science and Technology.\nPersonal website"
+  },
+  {
+    "objectID": "qmrg/people/trond/trond.html",
+    "href": "qmrg/people/trond/trond.html",
+    "title": "Trond Løkling",
+    "section": "",
+    "text": "Trond is a\nPersonal website"
+  },
+  {
+    "objectID": "qmrg/projects.html",
+    "href": "qmrg/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "qmrg/readme.html",
+    "href": "qmrg/readme.html",
     "title": "Readme",
     "section": "",
     "text": "Readme\nThis is the webpage for the QMRG research group of NTNU."
   },
   {
-    "objectID": "people/matthias/matthias.html",
-    "href": "people/matthias/matthias.html",
-    "title": "Matthias Mittner",
+    "objectID": "qmrg/shinyapps.html",
+    "href": "qmrg/shinyapps.html",
+    "title": "ShinyApps",
     "section": "",
-    "text": "Matthias Mittner is a professor and leader of the research group for cognitive neuroscience at the University of Tromsø and a professor of quantitative research methods at the Norwegian University of Science and Technology in Norway. He has broad experience teaching university courses in statistics and research methods ranging from introductory to advanced topics both at the Bachelor, Master and PhD-level. His main research interests are centered on the neurobiology of cognitive functions and he is also interested in the development of methodological approaches and computational methods, cognitive modeling, machine-learning and Bayesian statistics. Matthias has studied psychology and computer science and completed his PhD in psychology at the University of Frankfurt (Germany). He has previously worked as a post-doc at the Max-Planck Institutes for Dynamics and Self-Organization as well as the MPI for experimental medicine and the University of Amsterdam (The Netherlands).\n\nPersonal website\nProfessional website at UiT\nProfessional website at NTNU\nLab website"
+    "text": "No matching items"
   }
 ]

@@ -27,13 +27,15 @@ website:
      
     
     right:
-      - about.qmd
+      - text: QMRG's Tips & Best Practices
+        href: best.qmd
       - text: People
         href: people.qmd
+      - about.qmd
       - icon: github
-        href: https://github.com/frederickanyan
+        href: https://github.com/QMRG-NTNU/qmrg
       - icon: twitter
-        href: https://twitter.com/@anyan4usall
+        href: https://twitter.com/
       
 format:
   html:

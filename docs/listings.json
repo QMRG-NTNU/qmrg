@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/best.html",
+    "items": [
+      "/best/short_guidelines/guidelines.html",
+      "/best/Recommended_packages/Recommended_packages.html",
+      "/best/Why_use_scripting/scripting.html",
+      "/best/Structuring_R_projects/Struturing_projects.html",
+      "/best/New_to_stats/new_to_stats.html",
+      "/best/SPSS_user/SPSS_users.html",
+      "/best/Humor/humor.html"
+    ]
+  },
+  {
     "listing": "/books.html",
     "items": []
   },
@@ -22,13 +34,52 @@
   {
     "listing": "/people.html",
     "items": [
-      "/people/frederick/frederick.html",
-      "/people/trond/trond.html",
-      "/people/matthias/matthias.html",
-      "/people/mehmet/mehmet.html",
-      "/people/mons/mons.html",
       "/people/hrudi/havard.html",
-      "/people/prasad/prasad.html"
+      "/people/prasad/prasad.html",
+      "/people/mons/mons.html",
+      "/people/frederick/frederick.html",
+      "/people/mehmet/mehmet.html",
+      "/people/trond/trond.html",
+      "/people/mathias/mathias.html",
+      "/qmrg/people/frederick/frederick.html",
+      "/qmrg/people/hrudi/havard.html",
+      "/qmrg/people/matthias/matthias.html",
+      "/qmrg/people/mehmet/mehmet.html",
+      "/qmrg/people/mons/mons.html",
+      "/qmrg/people/prasad/prasad.html",
+      "/qmrg/people/trond/trond.html"
     ]
+  },
+  {
+    "listing": "/qmrg/articles.html",
+    "items": []
+  },
+  {
+    "listing": "/qmrg/books.html",
+    "items": []
+  },
+  {
+    "listing": "/qmrg/packages.html",
+    "items": []
+  },
+  {
+    "listing": "/qmrg/people.html",
+    "items": [
+      "/qmrg/people/frederick/frederick.html",
+      "/qmrg/people/hrudi/havard.html",
+      "/qmrg/people/matthias/matthias.html",
+      "/qmrg/people/mehmet/mehmet.html",
+      "/qmrg/people/mons/mons.html",
+      "/qmrg/people/prasad/prasad.html",
+      "/qmrg/people/trond/trond.html"
+    ]
+  },
+  {
+    "listing": "/qmrg/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/qmrg/shinyapps.html",
+    "items": []
   }
 ]
