@@ -1,5 +1,0 @@
----
-title: 'Managing projects in R'
-image: ""
-categories: [RStudio]
----

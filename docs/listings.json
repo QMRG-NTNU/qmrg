@@ -14,13 +14,13 @@
   {
     "listing": "/people.html",
     "items": [
-      "/people/hrudi/havard.html",
-      "/people/prasad/prasad.html",
-      "/people/mons/mons.html",
       "/people/frederick/frederick.html",
-      "/people/mehmet/mehmet.html",
       "/people/trond/trond.html",
-      "/people/mathias/mathias.html"
+      "/people/mathias/mathias.html",
+      "/people/mehmet/mehmet.html",
+      "/people/mons/mons.html",
+      "/people/hrudi/havard.html",
+      "/people/prasad/prasad.html"
     ]
   },
   {
@@ -34,13 +34,13 @@
   {
     "listing": "/best.html",
     "items": [
-      "/best/short_guidelines/guidelines.html",
       "/best/Recommended_packages/Recommended_packages.html",
       "/best/Why_use_scripting/scripting.html",
-      "/best/Structuring_R_projects/Struturing_projects.html",
       "/best/New_to_stats/new_to_stats.html",
       "/best/SPSS_user/SPSS_users.html",
-      "/best/Humor/humor.html"
+      "/best/Humor/humor.html",
+      "/best/short_guidelines/guidelines.html",
+      "/best/Structuring_R_projects/Struturing_projects.html"
     ]
   }
 ]
