@@ -1,5 +1,13 @@
 ---
-title: 'New to statistics? Look here'
-image: ""
-categories: [SEM, ]
+title: 'New to statistics? Look here.'
+image: "imgages/dist.png"
+categories: [RStudio, statistics]
+author: "Gerit Pfuhl"
+date: "8/19/2024"
+date-modified: last-modified
 ---
+
+
+There are many great resources [here](https://www.khanacademy.org/math/statistics-probability) and [here](https://learningstatisticswithr.com/)
+ 
+På norsk [Jo Røislien](https://www.youtube.com/watch?v=rZUjCcLwYGE) og [her](https://www.youtube.com/@psyport?app=desktop)
