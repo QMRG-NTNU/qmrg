@@ -210,17 +210,17 @@
     "text": "Further information\n\nUsing RStudio Projects from POSIT\nMarkdown basics from Quarto\nProjectTemplate for advanced project management\nIntro for Git and Github for RStudio\nHappy Git a comprehensive guide for Git And Github with R/RStudio"
   },
   {
-    "objectID": "best.html",
-    "href": "best.html",
-    "title": "QMRG’s Tips & Best Practices",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nGuidelines for employees\n\n\n\nIPS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecommended packages for R\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy use scripting\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\nHow do I start a new project for data-analysis in R and RStudio? Which files and folder do I need to create? Where do I store my datafiles? Read on to find out!\n\n\n\nMatthias Mittner\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here.\n\n\n\nRStudio\n\n\nstatistics\n\n\n\n\n\n\n\nGerit Pfuhl\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "best/New_to_stats/new_to_stats.html",
     "href": "best/New_to_stats/new_to_stats.html",
     "title": "New to statistics? Look here.",
     "section": "",
     "text": "There are many great resources here and here\nPå norsk Jo Røislien og her"
+  },
+  {
+    "objectID": "best.html",
+    "href": "best.html",
+    "title": "QMRG’s Tips & Best Practices",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nGuidelines for employees\n\n\n\nIPS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecommended packages for R\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy use scripting\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\nHow do I start a new project for data-analysis in R and RStudio? Which files and folder do I need to create? Where do I store my datafiles? Read on to find out!\n\n\n\nMatthias Mittner\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here.\n\n\n\nRStudio\n\n\nstatistics\n\n\n\n\n\n\n\nGerit Pfuhl\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

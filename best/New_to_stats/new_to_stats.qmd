@@ -1,6 +1,6 @@
 ---
 title: 'New to statistics? Look here.'
-image: "imgages/dist.png"
+image: "img/dist.png"
 categories: [RStudio, statistics]
 author: "Gerit Pfuhl"
 date: "8/19/2024"
