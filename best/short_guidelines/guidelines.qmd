@@ -1,6 +1,7 @@
 --- 
 title: Guidelines for R at IPS
 author: Håvard R. Karlsen
+image: "r-learners.png"
 date: 2024-07-30
 bibliography: refs.bib
 csl: apa.csl
