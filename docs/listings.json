@@ -1,46 +1,55 @@
 [
   {
-    "listing": "/articles.html",
-    "items": []
-  },
-  {
-    "listing": "/books.html",
-    "items": []
+    "listing": "/best.html",
+    "items": [
+      "/best/Why_use_scripting/scripting.html",
+      "/best/SPSS_user/SPSS_users.html",
+      "/best/Humor/humor.html",
+      "/best/New_to_stats/new_to_stats.html",
+      "/best/Structuring_R_projects/Structuring_projects.html",
+      "/best/short_guidelines/guidelines.html"
+    ]
   },
   {
     "listing": "/packages.html",
-    "items": []
+    "items": [
+      "/packages/readme.html"
+    ]
   },
   {
     "listing": "/people.html",
     "items": [
-      "/people/hrudi/havard.html",
-      "/people/prasad/prasad.html",
-      "/people/mons/mons.html",
       "/people/frederick/frederick.html",
-      "/people/mehmet/mehmet.html",
       "/people/trond/trond.html",
-      "/people/matthias/matthias.html"
+      "/people/matthias/matthias.html",
+      "/people/mehmet/mehmet.html",
+      "/people/mons/mons.html",
+      "/people/hrudi/havard.html",
+      "/people/prasad/prasad.html"
+    ]
+  },
+  {
+    "listing": "/shinyapps.html",
+    "items": [
+      "/shinyapps/readme.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/books/readme.html"
     ]
   },
   {
     "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/shinyapps.html",
-    "items": []
-  },
-  {
-    "listing": "/best.html",
     "items": [
-      "/best/short_guidelines/guidelines.html",
-      "/best/Recommended_packages/Recommended_packages.html",
-      "/best/Why_use_scripting/scripting.html",
-      "/best/SPSS_user/SPSS_users.html",
-      "/best/Humor/humor.html",
-      "/best/Structuring_R_projects/Structuring_projects.html",
-      "/best/New_to_stats/new_to_stats.html"
+      "/projects/readme.html"
+    ]
+  },
+  {
+    "listing": "/articles.html",
+    "items": [
+      "/articles/readme.html"
     ]
   }
 ]

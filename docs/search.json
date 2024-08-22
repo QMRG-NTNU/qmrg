@@ -1,66 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "best.html",
+    "href": "best.html",
+    "title": "QMRG’s Tips & Best Practices",
     "section": "",
-    "text": "Our main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis."
-  },
-  {
-    "objectID": "about.html#scope-and-research-focus",
-    "href": "about.html#scope-and-research-focus",
-    "title": "About",
-    "section": "Scope and research focus",
-    "text": "Scope and research focus\n\nThe QMRG encompasses a broad range of topics in design and quantitative data analysis with a particular focus on developing new statistical software packages and programming applications for popular statistical software such as R, Stata and Mplus, and the application of advanced statistical techniques, covering structural equation modelling (both CB-SEM and PLS-SEM) and multilevel modelling (MLM) for panel research and intensive longitudinal designs in the psychological sciences."
-  },
-  {
-    "objectID": "about.html#specific-aims-and-objectives",
-    "href": "about.html#specific-aims-and-objectives",
-    "title": "About",
-    "section": "Specific aims and objectives",
-    "text": "Specific aims and objectives\n\n\nOur work aims to promote quality teaching in quantitative methods and statistical modelling.\n\n\nOur research and innovation activities include developing statistical software packages and programming applications for quantitative data analysis.\n\n\nResearch at the QMRG covers aligning data types, research questions and underlying statistical models to ensure practical and thoughtful applications to theoretical models, and the accurate interpretation of fitted models to empirical data.\n\n\nThe QMRG aims to promote the quality of research design and methods, reproducible research practices, and statistical thinking and awareness throughout the research process."
-  },
-  {
-    "objectID": "about.html#seminars-and-workshops",
-    "href": "about.html#seminars-and-workshops",
-    "title": "About",
-    "section": "Seminars and Workshops",
-    "text": "Seminars and Workshops\nThe QMRG organizes the Quantitative Seminar Series in Psychology, which comprises a broad range of in-person and online quantitative methods and statistical modelling workshops and seminars.\nWorkshops and seminars at QMRG cover an array of topics, methods, and software that are applied across different research areas, including, but not limited to, R/Stata programming, panel and intensive longitudinal designs, structural equation modelling, multilevel modelling, mixture modelling, Reproducible/automated reporting, among others."
-  },
-  {
-    "objectID": "articles.html",
-    "href": "articles.html",
-    "title": "Articles",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quantitative Methods Research Group",
-    "section": "",
-    "text": "The Quantitative Methods Research Group (QMRG) is a specialized research group which centers on the development and advanced applications of quantitative methods and statistical modelling for the psychological sciences. The QMRG is based in the Department of Psychology at the Norwegian University of Science and Technology (NTNU).\nOur main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nWhy use scripting\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here.\n\n\n\nRStudio\n\n\nstatistics\n\n\n\n\n\n\n\nGerit Pfuhl\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\nHow do I start a new project for data-analysis in R and RStudio? Which files and folder do I need to create? Where do I store my datafiles? Read on to find out!\n\n\n\nMatthias Mittner\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuidelines for R at IPS\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\nJul 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "packages.html",
     "href": "packages.html",
     "title": "Packages",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "Håvard Rudi Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Readme\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/hrudi/havard.html",
@@ -84,27 +35,6 @@
     "text": "Supervision\nI have supervised bachelor’s and master’s students, and I have taught in bachelor, master and PhD courses. In 2020 I won a price for research dissemination.\nAre you writing a master’s thesis at the department and in need of a supervisor? If you have a good idea for a project that falls within my areas of expertise, shoot me an e-mail and we can discuss the idea and whether you want me as your supervisor. I currently have no open projects in need of a student, but I’m always up for discussion any ideas you might have.\nAre you dreaming of becoming a PhD student? Again, if you have a good idea, don’t hesitate to get in touch. The road to funding and a position is long, but if you succeed it’s worth it!\nPersonal website"
   },
   {
-    "objectID": "people/prasad/prasad.html",
-    "href": "people/prasad/prasad.html",
-    "title": "Subramanya Prasad Chandrashekar",
-    "section": "",
-    "text": "I am currently a postdoctoral fellow in the Department of Psychology at the Norwegian University of Science and Technology (NTNU). My research focuses on: Judgment and Decision Making; Choice, agency, and related lay-beliefs (e.g. belief in free will); Moral psychology; Replication; Open science. I received my Ph.D. in Management (Organizational behaviour track) from the Hong Kong University of Science and Technology.\nPersonal website"
-  },
-  {
-    "objectID": "people/mons/mons.html",
-    "href": "people/mons/mons.html",
-    "title": "Mons Bendixen",
-    "section": "",
-    "text": "Main areas of interest: Evolutionary social psychology, jealousy and forgiveness, sexual regret, sexual misperception, flirt, sexual harassment, bullying, ostracism, antisocial and aggressive behavior.\nDownload CV\nPersonal website"
-  },
-  {
-    "objectID": "people/frederick/frederick.html",
-    "href": "people/frederick/frederick.html",
-    "title": "Frederick Anyan",
-    "section": "",
-    "text": "Frederick is an Associate Professor of Quantitative Methods and co-leader of the Quantitative Methods Research Group (QMRG) at the Norwegian University of Science and Technology, NTNU\nHis background in applied analysis in panel and intensive longitudinal data, as well as structural equation modelling (SEM) and hierarchical linear modelling (HLM) enables his participation in research to uncover subtle patterns in complex data sets, teasing apart minute details to reveal crucial insights that could inform effective interventions.\nPersonal website"
-  },
-  {
     "objectID": "people/mehmet/mehmet.html",
     "href": "people/mehmet/mehmet.html",
     "title": "Mehmet Mehmetoglu",
@@ -119,18 +49,18 @@
     "text": "Trond is a\nPersonal website"
   },
   {
-    "objectID": "people/matthias/matthias.html",
-    "href": "people/matthias/matthias.html",
-    "title": "Matthias Mittner",
+    "objectID": "packages/readme.html",
+    "href": "packages/readme.html",
+    "title": "Readme",
     "section": "",
-    "text": "Matthias Mittner is a professor and leader of the research group for cognitive neuroscience at the University of Tromsø and a professor of quantitative research methods at the Norwegian University of Science and Technology in Norway. He has broad experience teaching university courses in statistics and research methods ranging from introductory to advanced topics both at the Bachelor, Master and PhD-level. His main research interests are centered on the neurobiology of cognitive functions and he is also interested in the development of methodological approaches and computational methods, cognitive modeling, machine-learning and Bayesian statistics. Matthias has studied psychology and computer science and completed his PhD in psychology at the University of Frankfurt (Germany). He has previously worked as a post-doc at the Max-Planck Institutes for Dynamics and Self-Organization as well as the MPI for experimental medicine and the University of Amsterdam (The Netherlands).\n\n\n\nPersonal website\nProfessional website at UiT\nProfessional website at NTNU\nLab website"
+    "text": "Readme\nHere is a collection of packages programmed by members of the QMRG research group."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "No matching items"
+    "text": "Frederick Anyan\n\n\n\nSEM\n\n\nPanel Data\n\n\nMLM/HLM\n\n\nRStudio\n\n\nJASP\n\n\nNetwork Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrond Løkling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatthias Mittner\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMehmet Mehmetoglu\n\n\n\nSEM\n\n\nStata\n\n\nRStudio\n\n\nProgramming\n\n\nPackages\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMons Bendixen\n\n\n\nStatistics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHåvard Rudi Karlsen\n\n\n\nStatistics\n\n\nPsychometrics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSubramanya Prasad Chandrashekar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "readme.html",
@@ -140,11 +70,81 @@
     "text": "Readme\nThis is the webpage for the QMRG research group of NTNU."
   },
   {
+    "objectID": "books/readme.html",
+    "href": "books/readme.html",
+    "title": "Readme",
+    "section": "",
+    "text": "Readme\nHere is a collection of books authored by members of the QMRG research group."
+  },
+  {
+    "objectID": "best/short_guidelines/guidelines.html",
+    "href": "best/short_guidelines/guidelines.html",
+    "title": "Guidelines for R at IPS",
+    "section": "",
+    "text": "This is a short document that gives some suggestions for packages and functions to use for various task in R. It came about on requests from staff at the Department of Psychology (IPS). It is merely a guideline for those who want input or tips for which tools to use for the job. With R there will always be a practically unlimited set of options for how to do anything. Feel free to use whatever speaks to your soul.\nNote that this list is based on the text book used in the master’s course in statistics, 3100 - Quantiative methods, (Mehmetoglu & Mittner, 2022). Hence, these are the tools that the students will be taught and should be familiar with."
+  },
+  {
+    "objectID": "best/short_guidelines/guidelines.html#background",
+    "href": "best/short_guidelines/guidelines.html#background",
+    "title": "Guidelines for R at IPS",
+    "section": "Background",
+    "text": "Background\nIPS is moving away from the proprietary software packages SPSS and Stata and towards JASP and R. JASP is a SPSS-like graphical user interface built atop R and should be familiar to those who worked in SPSS. R is a programming language geared towards statistics. This is in line with NTNU’s policy of developing and using open source software, and could potentially save NTNU billions of Norwegian øre in licencing costs."
+  },
+  {
+    "objectID": "best/short_guidelines/guidelines.html#the-guidelines",
+    "href": "best/short_guidelines/guidelines.html#the-guidelines",
+    "title": "Guidelines for R at IPS",
+    "section": "The guidelines",
+    "text": "The guidelines\nNaming convention in these guidelines: Package name in bold, function name in backticks. Alternatively, package_name::function_name() to indicate both the function and the package it comes from. If no package is specified, the function comes from one of the standard packages loaded when you start R1.\n\nWorking with R\nWe suggest working with an updated version of R, and using RStudio. It is smart to organise your files and workflow in RStudio’s projects. This makes it easier to keep track of files and scripts.\nWe strongly recommend turning off automatic restoration of workspace at startup. See this blog post for more details. This will save you a lot of headaches down the line.\nThe text book uses the magrittr pipe %&gt;% which was common at the time of publication. Since then, the base R pipe |&gt; has taken over in popular use. Students will be exposed to both. They are mostly interchangeable for the use cases in the course.\nWe use &lt;- for assignment instead of =. Ie:\n\nhead_honcho &lt;- c(\"Magne\")\n\nWe recommend working script-based as much as possible. This way, you and any collaborators (like students) start out with identical data sets, and do all your work on it via scripts that are run for each session. This ensures that the collaborators can easily recreate the same state of the data to check on work others did. The alternative, where each set of collaborators start storing different versions of the dataset with different variables can quickly create a mess and make it difficult to know exactly what was done to the dataset. Writing a data setup script that loads the data and wrangles the dataset (recoding variables, dropping specific cases, etc.) is helpful in this regard. Then you can keep a separate script for analysis.\nWhen it comes to how to write code, we recommend working with the Tidyverse style guide. This makes code more readable and thus more understandable.\n\n\nData import\n\nhaven for importing files from Stata, SPSS and SAS\nreadxl for importing Excel files\nreadr::read_csv() for importing csv files. Though read.csv() from base R also works fine.\n\nDatasets should be stored as either tibble() or data.frame().\n\n\nData wrangling\nBoth base R and tidyverse approaches are used. For instance, choosing specific rows or columns of a data frame can be done either in base R with brackets [] or with select() and filter() from dplyr:\n\n# load dataset for demonstration\nlibrary(palmerpenguins)\n\n# Select columns\npenguins[\"bill_length_mm\"]\npenguins |&gt; dplyr::select(bill_length_mm)\n\n# Select rows\npenguins[penguins$bill_length_mm &gt; 55, ]\npenguins |&gt; dplyr::filter(bill_length_mm &gt; 55)\n\n\nFor creating new variables: mutate() from dplyr.\nFor working on categorical variables: forcats\n\n\n\nSummary statistics\n\nsummarytools: creates summaries of datasets\nmodeest: estimates the mode\npsych: contains helpful functions for correlation\nmoments: functions that calculate skewness and kurtosis\ndplyr::summarise(): creates summary tables\nstargazer: for creating tables\n\n\n\nGraphs\nThe general recommendation is to use ggplot2 for most things.\n\n\nData analysis\nLinear regression: lm() is used for fitting linear regression models. It comes from stats, one of the base R packages.\n\nlm(bill_length_mm ~ sex + body_mass_g,\n   penguins)\n\n\nlm.beta::lm.beta(): for standardised regression coefficients. Alternatively, normalise all variables with scale() and then run normal lm()\nmulticomp: test linear combination hypotheses using glht()\ncar: test joint significance of coefficients\nrelaimp: computes semi-partial correlations using calc.relimp()\nperformance::check_model(): gives graphs to illustrate the performance of a model\nfastDummies: creates dummy variables\nsandwich: propvides robust standard errors\ninteractions: has functions for anlaysing interactions, like sim_slopes()\n\nLogistic regression: We fit a model with glm(), specifying that glm()’s family is binomial, and that binomial()’s link is \"logit\". In other words:\n\nglm(formula = sex ~ bill_length_mm + body_mass_g,\n    family = binomial(link = \"logit\"),\n    data = penguins)\n\nSince link defaults to \"logit\", this can also be written out like this (if we drop argument names)\n\nglm(sex ~ bill_length_mm + body_mass_g,\n    binomial(),\n    penguins)\n\n\nlmtest: implements the likelihood ratio test with lrtest()\nDescTools::PseudoR2(): returns a variety of Pseudo \\(R^2\\)s\nvisreg: visualise regression omodels\n\nExploratory factor analysis. The psych package contains functions for doing factor analysis\n\nfa.parallel(): for parallel analysis\nfa(): for factor analysis\nprincipal(): for principal component analysis (PCA)\n\nStructural equation modelling: The lavaan package is used for SEM.\n\nfunctions from lavaan\n\ncfa(): for CFA\nsem(): for SEM\nmodindices(): for modification indices\nstandardizedSolution(): for standardised estimates\n\nastatur::relicoef(): for reliability coefficients. Note that astatur has to be downloaded from GitHub, not CRAN. Run devtools::install_github(\"ihrke/astatur\")."
+  },
+  {
+    "objectID": "best/short_guidelines/guidelines.html#references",
+    "href": "best/short_guidelines/guidelines.html#references",
+    "title": "Guidelines for R at IPS",
+    "section": "References",
+    "text": "References\n\n\nMehmetoglu, M., & Mittner, M. (2022). Applied statistics using R: A guide for the social sciences. Sage."
+  },
+  {
+    "objectID": "best/short_guidelines/guidelines.html#footnotes",
+    "href": "best/short_guidelines/guidelines.html#footnotes",
+    "title": "Guidelines for R at IPS",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThese are colloquially called base R, though only one of the packages is actually called base↩︎"
+  },
+  {
+    "objectID": "best/New_to_stats/new_to_stats.html",
+    "href": "best/New_to_stats/new_to_stats.html",
+    "title": "New to statistics? Look here.",
+    "section": "",
+    "text": "There are many great resources here and here\nPå norsk Jo Røislien og her"
+  },
+  {
+    "objectID": "articles/readme.html",
+    "href": "articles/readme.html",
+    "title": "Readme",
+    "section": "",
+    "text": "Readme\nHere is a collection of articles authored by members of the QMRG research group."
+  },
+  {
     "objectID": "shinyapps.html",
     "href": "shinyapps.html",
     "title": "ShinyApps",
     "section": "",
-    "text": "No matching items"
+    "text": "Readme\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "Readme\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/readme.html",
+    "href": "projects/readme.html",
+    "title": "Readme",
+    "section": "",
+    "text": "Readme\nHere is a collection of projects by members of the QMRG research group."
   },
   {
     "objectID": "best/Structuring_R_projects/Structuring_projects.html",
@@ -210,17 +210,87 @@
     "text": "Further information\n\nUsing RStudio Projects from POSIT\nMarkdown basics from Quarto\nProjectTemplate for advanced project management\nIntro for Git and Github for RStudio\nHappy Git a comprehensive guide for Git And Github with R/RStudio"
   },
   {
-    "objectID": "best/New_to_stats/new_to_stats.html",
-    "href": "best/New_to_stats/new_to_stats.html",
-    "title": "New to statistics? Look here.",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "There are many great resources here and here\nPå norsk Jo Røislien og her"
+    "text": "Readme\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "best.html",
-    "href": "best.html",
-    "title": "QMRG’s Tips & Best Practices",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quantitative Methods Research Group",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nGuidelines for employees\n\n\n\nIPS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecommended packages for R\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy use scripting\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\nHow do I start a new project for data-analysis in R and RStudio? Which files and folder do I need to create? Where do I store my datafiles? Read on to find out!\n\n\n\nMatthias Mittner\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here.\n\n\n\nRStudio\n\n\nstatistics\n\n\n\n\n\n\n\nGerit Pfuhl\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "The Quantitative Methods Research Group (QMRG) is a specialized research group which centers on the development and advanced applications of quantitative methods and statistical modelling for the psychological sciences. The QMRG is based in the Department of Psychology at the Norwegian University of Science and Technology (NTNU).\nOur main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Our main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis."
+  },
+  {
+    "objectID": "about.html#scope-and-research-focus",
+    "href": "about.html#scope-and-research-focus",
+    "title": "About",
+    "section": "Scope and research focus",
+    "text": "Scope and research focus\n\nThe QMRG encompasses a broad range of topics in design and quantitative data analysis with a particular focus on developing new statistical software packages and programming applications for popular statistical software such as R, Stata and Mplus, and the application of advanced statistical techniques, covering structural equation modelling (both CB-SEM and PLS-SEM) and multilevel modelling (MLM) for panel research and intensive longitudinal designs in the psychological sciences."
+  },
+  {
+    "objectID": "about.html#specific-aims-and-objectives",
+    "href": "about.html#specific-aims-and-objectives",
+    "title": "About",
+    "section": "Specific aims and objectives",
+    "text": "Specific aims and objectives\n\n\nOur work aims to promote quality teaching in quantitative methods and statistical modelling.\n\n\nOur research and innovation activities include developing statistical software packages and programming applications for quantitative data analysis.\n\n\nResearch at the QMRG covers aligning data types, research questions and underlying statistical models to ensure practical and thoughtful applications to theoretical models, and the accurate interpretation of fitted models to empirical data.\n\n\nThe QMRG aims to promote the quality of research design and methods, reproducible research practices, and statistical thinking and awareness throughout the research process."
+  },
+  {
+    "objectID": "about.html#seminars-and-workshops",
+    "href": "about.html#seminars-and-workshops",
+    "title": "About",
+    "section": "Seminars and Workshops",
+    "text": "Seminars and Workshops\nThe QMRG organizes the Quantitative Seminar Series in Psychology, which comprises a broad range of in-person and online quantitative methods and statistical modelling workshops and seminars.\nWorkshops and seminars at QMRG cover an array of topics, methods, and software that are applied across different research areas, including, but not limited to, R/Stata programming, panel and intensive longitudinal designs, structural equation modelling, multilevel modelling, mixture modelling, Reproducible/automated reporting, among others."
+  },
+  {
+    "objectID": "shinyapps/readme.html",
+    "href": "shinyapps/readme.html",
+    "title": "Readme",
+    "section": "",
+    "text": "Readme\nHere is a collection of shinyapps by members of the QMRG research group."
+  },
+  {
+    "objectID": "people/frederick/frederick.html",
+    "href": "people/frederick/frederick.html",
+    "title": "Frederick Anyan",
+    "section": "",
+    "text": "Frederick is an Associate Professor of Quantitative Methods and co-leader of the Quantitative Methods Research Group (QMRG) at the Norwegian University of Science and Technology, NTNU\nHis background in applied analysis in panel and intensive longitudinal data, as well as structural equation modelling (SEM) and hierarchical linear modelling (HLM) enables his participation in research to uncover subtle patterns in complex data sets, teasing apart minute details to reveal crucial insights that could inform effective interventions.\nPersonal website"
+  },
+  {
+    "objectID": "people/matthias/matthias.html",
+    "href": "people/matthias/matthias.html",
+    "title": "Matthias Mittner",
+    "section": "",
+    "text": "Matthias Mittner is a professor and leader of the research group for cognitive neuroscience at the University of Tromsø and a professor of quantitative research methods at the Norwegian University of Science and Technology in Norway. He has broad experience teaching university courses in statistics and research methods ranging from introductory to advanced topics both at the Bachelor, Master and PhD-level. His main research interests are centered on the neurobiology of cognitive functions and he is also interested in the development of methodological approaches and computational methods, cognitive modeling, machine-learning and Bayesian statistics. Matthias has studied psychology and computer science and completed his PhD in psychology at the University of Frankfurt (Germany). He has previously worked as a post-doc at the Max-Planck Institutes for Dynamics and Self-Organization as well as the MPI for experimental medicine and the University of Amsterdam (The Netherlands).\n\n\n\nPersonal website\nProfessional website at UiT\nProfessional website at NTNU\nLab website"
+  },
+  {
+    "objectID": "people/mons/mons.html",
+    "href": "people/mons/mons.html",
+    "title": "Mons Bendixen",
+    "section": "",
+    "text": "Main areas of interest: Evolutionary social psychology, jealousy and forgiveness, sexual regret, sexual misperception, flirt, sexual harassment, bullying, ostracism, antisocial and aggressive behavior.\nDownload CV\nPersonal website"
+  },
+  {
+    "objectID": "people/prasad/prasad.html",
+    "href": "people/prasad/prasad.html",
+    "title": "Subramanya Prasad Chandrashekar",
+    "section": "",
+    "text": "I am currently a postdoctoral fellow in the Department of Psychology at the Norwegian University of Science and Technology (NTNU). My research focuses on: Judgment and Decision Making; Choice, agency, and related lay-beliefs (e.g. belief in free will); Moral psychology; Replication; Open science. I received my Ph.D. in Management (Organizational behaviour track) from the Hong Kong University of Science and Technology.\nPersonal website"
+  },
+  {
+    "objectID": "articles.html",
+    "href": "articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "Readme\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
