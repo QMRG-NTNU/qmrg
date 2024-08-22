@@ -2,7 +2,6 @@
 title: 'Software Packages'
 ---
 
-Here is a collection of R and Stata packages that can be used for data analysis.
 
 # R packages
 
