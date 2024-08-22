@@ -16,7 +16,7 @@ about:
 Our main goal is to produce and disseminate knowledge about quantitative methods and statistical modelling through teaching, research, publications, and programming applications and software packages for quantitative data analysis. 
 
 ## Scope and research focus
-<ul>The QMRG encompasses a broad range of topics in design and quantitative data analysis with a particular focus on developing new statistical software packages and programming applications for popular statistical software such as R, Stata and Mplus, and the application of advanced statistical techniques, covering structural equation modelling (both CB-SEM and PLS-SEM) and multilevel modelling (MLM) for panel research and intensive longitudinal designs in the psychological sciences.</ul> 
+The QMRG encompasses a broad range of topics in design and quantitative data analysis with a particular focus on developing new statistical software packages and programming applications for popular statistical software such as R, Stata and Mplus, and the application of advanced statistical techniques, covering structural equation modelling (both CB-SEM and PLS-SEM) and multilevel modelling (MLM) for panel research and intensive longitudinal designs in the psychological sciences.
 
 ## Specific aims and objectives
 - Our work aims to promote quality teaching in quantitative methods and statistical modelling.
