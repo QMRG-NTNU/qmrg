@@ -1,5 +1,141 @@
+--- 
+title: Guidelines for R at IPS
+author: Håvard R. Karlsen
+image: "r-learners.png"
+date: 2024-07-30
+bibliography: refs.bib
+csl: apa.csl
+execute: 
+  eval: false
 ---
-title: 'Guidelines for employees'
-image: ""
-categories: [IPS,]
----
+
+This is a short document that gives some suggestions for packages and functions to use for various task in R. It came about on requests from staff at the Department of Psychology (IPS). **It is merely a guideline for those who want input or tips for which tools to use for the job**. With R there will always be a practically unlimited set of options for how to do anything. Feel free to use whatever speaks to your soul. 
+
+Note that this list is based on the text book used in the master's course in statistics, 3100 - Quantiative methods, [@Mehmetoglu2022]. Hence, these are the tools that the students will be taught and should be familiar with. 
+
+## Background
+
+IPS is moving away from the proprietary software packages SPSS and Stata and towards JASP and R. JASP is a SPSS-like graphical user interface built atop R and should be familiar to those who worked in SPSS. R is a programming language geared towards statistics. This is in line with NTNU's policy of developing and using open source software, and could potentially save NTNU billions of Norwegian *øre* in licencing costs.
+
+## The guidelines
+
+Naming convention in these guidelines: Package name in **bold**, function name in `backticks`. Alternatively, `package_name::function_name()` to indicate both the function and the package it comes from. If no package is specified, the function comes from one of the standard packages loaded when you start R[^baseR].
+
+[^baseR]: These are colloquially called **base R**, though only one of the packages is actually called **base**
+
+### Working with R
+
+We suggest working with an updated version of R, and using RStudio. It is smart to organise your files and workflow in RStudio's **projects**. This makes it easier to keep track of files and scripts.
+
+We **strongly** recommend turning off automatic restoration of workspace at startup. See [this blog post](https://hkarlsen.rbind.io/posts/nor/2024-02-22-rstudio-tips/#tips-2-skru-av-automatisk-gjenoppretting-av-workspace) for more details. This will save you a lot of headaches down the line.
+
+The text book uses the **magrittr** pipe `%>%` which was common at the time of publication. Since then, the base R pipe `|>` has taken over in popular use. Students will be exposed to both. They are mostly interchangeable for the use cases in the course.
+
+We use `<-` for assignment instead of `=`. Ie: 
+
+```{r}
+head_honcho <- c("Magne")
+```
+
+We recommend working script-based as much as possible. This way, you and any collaborators (like students) start out with identical data sets, and do all your work on it via scripts that are run for each session. This ensures that the collaborators can easily recreate the same state of the data to check on work others did. The alternative, where each set of collaborators start storing different versions of the dataset with different variables can quickly create a mess and make it difficult to know exactly what was done to the dataset. Writing a *data setup* script that loads the data and wrangles the dataset (recoding variables, dropping specific cases, etc.) is helpful in this regard. Then you can keep a separate script for analysis. 
+
+When it comes to how to write code, we recommend working with the [Tidyverse style guide](https://style.tidyverse.org/index.html). This makes code more readable and thus more understandable.
+
+### Data import
+
+- **haven** for importing files from Stata, SPSS and SAS
+- **readxl** for importing Excel files
+- `readr::read_csv()` for importing csv files. Though `read.csv()` from base R also works fine.
+
+Datasets should be stored as either `tibble()` or `data.frame()`.
+
+### Data wrangling
+
+Both base R and tidyverse approaches are used. For instance, choosing specific rows or columns of a data frame can be done either in base R with brackets `[]` or with `select()` and `filter()` from **dplyr**:
+
+```{r}
+# load dataset for demonstration
+library(palmerpenguins)
+
+# Select columns
+penguins["bill_length_mm"]
+penguins |> dplyr::select(bill_length_mm)
+
+# Select rows
+penguins[penguins$bill_length_mm > 55, ]
+penguins |> dplyr::filter(bill_length_mm > 55)
+```
+
+- For creating new variables: `mutate()` from **dplyr**. 
+- For working on categorical variables: **forcats**
+
+### Summary statistics
+
+- **summarytools**: creates summaries of datasets
+- **modeest**: estimates the mode
+- **psych**: contains helpful functions for correlation
+- **moments**: functions that calculate skewness and kurtosis
+- `dplyr::summarise()`: creates summary tables
+- **stargazer**: for creating tables
+
+### Graphs
+
+The general recommendation is to use **ggplot2** for most things. 
+
+### Data analysis
+
+Linear regression: `lm()` is used for fitting linear regression models. It comes from **stats**, one of the base R packages.
+
+```{r}
+lm(bill_length_mm ~ sex + body_mass_g,
+   penguins)
+```
+
+- `lm.beta::lm.beta()`: for standardised regression coefficients. Alternatively, normalise all variables with `scale()` and then run normal `lm()`
+- **multicomp**: test linear combination hypotheses using `glht()`
+- **car**: test joint significance of coefficients
+- **relaimp**: computes semi-partial correlations using `calc.relimp()`
+- `performance::check_model()`: gives graphs to illustrate the performance of a model
+- **fastDummies**: creates dummy variables
+- **sandwich**: propvides robust standard errors
+- **interactions**: has functions for anlaysing interactions, like `sim_slopes()`
+
+Logistic regression: We fit a model with `glm()`, specifying that `glm()`'s `family` is `binomial`, and that `binomial()`'s `link` is `"logit"`. In other words:
+
+```{r}
+glm(formula = sex ~ bill_length_mm + body_mass_g,
+    family = binomial(link = "logit"),
+    data = penguins)
+```
+
+Since `link` defaults to `"logit"`, this can also be written out like this (if we drop argument names)
+
+```{r}
+glm(sex ~ bill_length_mm + body_mass_g,
+    binomial(),
+    penguins)
+```
+
+- **lmtest**: implements the likelihood ratio test with `lrtest()`
+- `DescTools::PseudoR2()`: returns a variety of Pseudo $R^2$s
+- **visreg**: visualise regression omodels
+
+Exploratory factor analysis. The **psych** package contains functions for doing factor analysis
+
+- `fa.parallel()`: for parallel analysis
+- `fa()`: for factor analysis
+- `principal()`: for principal component analysis (PCA)
+
+Structural equation modelling: The **lavaan** package is used for SEM.
+
+- functions from **lavaan**
+  - `cfa()`: for CFA
+  - `sem()`: for SEM
+  - `modindices()`: for modification indices
+  - `standardizedSolution()`: for standardised estimates
+- `astatur::relicoef()`: for reliability coefficients. Note that **astatur** has to be downloaded from GitHub, not CRAN. Run `devtools::install_github("ihrke/astatur")`.
+
+## References
+
+::: {#refs}
+:::
