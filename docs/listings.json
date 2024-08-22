@@ -32,11 +32,15 @@
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/proj.html"
+    ]
   },
   {
     "listing": "/shinyapps.html",
-    "items": []
+    "items": [
+      "/shinyapps/apps.html"
+    ]
   },
   {
     "listing": "/best.html",
