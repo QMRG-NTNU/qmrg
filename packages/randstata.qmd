@@ -1,0 +1,49 @@
+---
+title: 'Software Packages'
+---
+
+# R packages
+
+- **rmedsem**: R package for statistical mediation analysis, developed in collaboration with Matthias Mittner.
+
+- **mmiss**: R package to tabulate counts and percentages of missing values.
+
+- **rrelicoef**: R package to compute Raykov’s factor reliability coefficient.
+
+- **rmint**: R package to examine across-groups equivalence of confirmatory factor analysis (CFA) measurement model parameters.
+
+- **rcondisc**: R package to perform convergent and discriminant validity assessment in CFA.
+
+- **rvimp**: R package to assess the relative importance of predictors of a regression model.
+
+
+
+# Stata packages
+- **plssem**: Stata package to implement Partial least squares structural equation modelling (PLS-SEM), developed in collaboration with Sergio Venturini.
+
+- **medsem**: Stata package for statistical mediation analysis.
+
+- **mint**: Stata module to examine across-groups equivalence of confirmatory factor analysis (CFA) measurement model parameters.
+
+- **condisc**: Stata module to perform convergent and discriminant validity assessment in CFA.
+
+- **relicoef**: Stata module to compute Raykov’s factor reliability coefficient.
+
+- **fsdet**: Stata module to compute Factor score determinacy coefficient.
+
+- **vaf**: Stata module to compute mediation effect in SEM.
+
+- **sumscale**: Stata module to generate summated scales.
+
+- **regcheck**: Stata module to examine regression assumptions.
+
+- **regcoef**: Stata module to compute coefficients for quantifying relative importance of predictors.
+
+- **sqmc**: Stata module to compute squared multiple correlation.
+
+- **logtest**: Stata module to test significance of a predictor in logistic models.
+
+- **percat** Stata module to perform percentile-based categorisation.
+
+- **cv**: Stata module to compute coefficient of variation after regress.
+

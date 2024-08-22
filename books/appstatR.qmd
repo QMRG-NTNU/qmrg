@@ -1,0 +1,11 @@
+---
+title: 'Applied Statistics Using R: A Guide for the Social Sciences'
+image: "rbook.png"
+
+---
+
+
+[Get copy](https://uk.sagepub.com/en-gb/eur/applied-statistics-using-r/book266647)
+
+
+

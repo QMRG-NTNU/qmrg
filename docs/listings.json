@@ -1,55 +1,52 @@
 [
   {
-    "listing": "/best.html",
+    "listing": "/articles.html",
     "items": [
-      "/best/Why_use_scripting/scripting.html",
-      "/best/SPSS_user/SPSS_users.html",
-      "/best/Humor/humor.html",
-      "/best/New_to_stats/new_to_stats.html",
-      "/best/Structuring_R_projects/Structuring_projects.html",
-      "/best/short_guidelines/guidelines.html"
-    ]
-  },
-  {
-    "listing": "/packages.html",
-    "items": [
-      "/packages/readme.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/frederick/frederick.html",
-      "/people/trond/trond.html",
-      "/people/matthias/matthias.html",
-      "/people/mehmet/mehmet.html",
-      "/people/mons/mons.html",
-      "/people/hrudi/havard.html",
-      "/people/prasad/prasad.html"
-    ]
-  },
-  {
-    "listing": "/shinyapps.html",
-    "items": [
-      "/shinyapps/readme.html"
+      "/articles/plssem.html"
     ]
   },
   {
     "listing": "/books.html",
     "items": [
-      "/books/readme.html"
+      "/books/appstatR.html",
+      "/books/innforingR.html"
+    ]
+  },
+  {
+    "listing": "/packages.html",
+    "items": [
+      "/packages/randstata.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/hrudi/havard.html",
+      "/people/prasad/prasad.html",
+      "/people/mons/mons.html",
+      "/people/frederick/frederick.html",
+      "/people/mehmet/mehmet.html",
+      "/people/trond/trond.html",
+      "/people/matthias/matthias.html"
     ]
   },
   {
     "listing": "/projects.html",
-    "items": [
-      "/projects/readme.html"
-    ]
+    "items": []
   },
   {
-    "listing": "/articles.html",
+    "listing": "/shinyapps.html",
+    "items": []
+  },
+  {
+    "listing": "/best.html",
     "items": [
-      "/articles/readme.html"
+      "/best/Why_use_scripting/scripting.html",
+      "/best/SPSS_user/SPSS_users.html",
+      "/best/Humor/humor.html",
+      "/best/Structuring_R_projects/Structuring_projects.html",
+      "/best/New_to_stats/new_to_stats.html",
+      "/best/short_guidelines/guidelines.html"
     ]
   }
 ]

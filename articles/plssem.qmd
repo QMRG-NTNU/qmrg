@@ -1,0 +1,8 @@
+---
+title: 'Software Packages for Partial Least Squares Structural Equation Modeling: An Updated Review.'
+categories: [Partial least squares (PLS), Structural equation modeling (SEM)]
+---
+
+
+[Read more](https://doi.org/10.1007/978-3-031-37772-3_5)
+
