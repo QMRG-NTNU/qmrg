@@ -45,9 +45,9 @@
   {
     "listing": "/best.html",
     "items": [
-      "/best/Why_use_scripting/scripting.html",
       "/best/SPSS_user/SPSS_users.html",
       "/best/Humor/humor.html",
+      "/best/scripting/scriptingR.html",
       "/best/Structuring_R_projects/Structuring_projects.html",
       "/best/New_to_stats/new_to_stats.html",
       "/best/short_guidelines/guidelines.html"

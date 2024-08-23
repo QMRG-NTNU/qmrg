@@ -189,6 +189,83 @@
     "text": "Footnotes\n\n\nThese are colloquially called base R, though only one of the packages is actually called base↩︎"
   },
   {
+    "objectID": "best/scripting/scriptingR.html",
+    "href": "best/scripting/scriptingR.html",
+    "title": "Scripting in R",
+    "section": "",
+    "text": "RStudio combines an editor (sometimes called source), console, file manager, and visualization tools in one place, making it easier to manage your workflow. This is a short walk-through of how to use R scripts to organize your workflow. Let’s start with the primary pane layouts in RStudio."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#pane-layout-in-rstudio",
+    "href": "best/scripting/scriptingR.html#pane-layout-in-rstudio",
+    "title": "Scripting in R",
+    "section": "Pane layout in RStudio",
+    "text": "Pane layout in RStudio\nThere are four primary panes in the RStudio IDE (Integrated Development Environment) user interface. These are\n\nSource or editor pane: This is where you write your code. The code will run when you send to the console.\nConsole pane: This is where your code executes when you send from the editor pane. You can also execute quick codes that you do not want to save here.\nEnvironment pane: This is where objects in your working space are displayed. This pane also contains History, Connections, Build, and Tutorial tabs.\nOutput pane: This is where you can see your files directory, view plots, packages, access R help, and other tabs\n\n\n\n\nRStudio pane layout\n\n\n\n\n\n\n\n\nYou can minimize or maximize each pane within each quadrant by clicking the minimize/maximize buttons on the top right of each pane."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#using-r-scripts",
+    "href": "best/scripting/scriptingR.html#using-r-scripts",
+    "title": "Scripting in R",
+    "section": "Using R scripts",
+    "text": "Using R scripts\nIn R, a script is a file that contains a series of R commands written in the R language that can be executed in sequence. When you work interactively with R, you often enter commands directly into the console. While this is useful for quick tasks, it is not practical for more complex tasks or when you want to keep a record of your workflow. Scripting to the rescue! An image of an R script is shown below.\n\n\n\nAn R Script\n\n\nScripts are essential for reproducibility, as they allow you to document and track the entire workflow (e.g., data analysis process from start to finish). We will look more into the concept of scripting in R, explaining their importance in your workflow management. But First, it is important that you have familiarized yourself with managing projects in R, if you already do not know how to manage projects in R. You can also benefit from some guidelines and convention when working in R"
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#components-of-a-typical-script",
+    "href": "best/scripting/scriptingR.html#components-of-a-typical-script",
+    "title": "Scripting in R",
+    "section": "Components of a typical script",
+    "text": "Components of a typical script\nComments in R are written with a #. For example, #Load the UpSetR package to access the upset () function\n\nLoading Libraries: Most scripts begin by loading the necessary R packages using the library() function. Let’s load these two packages.\n\n\nlibrary(UpSetR) #Load the UpSetR package to access the `upset ()` function\nlibrary(ggplot2) #Load ggplot2 for data visualization\n\n\nData Loading: Next, we will load our data, often from a file like a CSV.\n\n\n#Load data\ndata &lt;- read.csv(\"/Volumes/anyan/qmrg_group/best/scripting/dataupset.csv\") \n\n#Assign names to variables in the dataset\nnames(data) &lt;- c(\"separation\", \"mutism\", \"phobia\", \"social\", \"panic\", \"anxiety\", \"depression\", \"ptsd\") \n\n\nData Cleaning and Manipulation: This section of the script would include all the steps we take to clean and prepare our data for analysis.\n\n\n#Removing rows with missing values\ndata &lt;- na.omit(data)  \n\n\nAnalysis: Here, we perform the actual analysis. So, let’s regress depression on anxiety.\n\n\n#Regress depression on anxiety\nmodel &lt;- lm(depression ~ anxiety, data=data) \n\n\nVisualization: Finally, scripts often include code to visualize the results.\n\n\nggplot(data, aes(x = anxiety, y = depression)) +\n  geom_point() +\n  geom_smooth(formula = y ~ x, method = \"lm\")\n\n\n\n\nThe blue line represents the fitted regression line and the grey bands represent the 95% confidence interval limits.\nR has enormous capabilities for visualizations! For example, we can produce an upset plot to visualize the size and the pairwise combinations or intersections of sets and their aggregates. This facilitates easy-to-understand communication of the size or proportion of set memberships.\n\nupset(data,                    \n      nsets = 8,                \n      matrix.color = \"red\", \n      sets.bar.color = \"blue\", \n      order.by = \"freq\",          \n      set_size.show = TRUE) \n\n\n\n\nThe blue bar chart shows the total size of the sets (i.e., set size). The red filled-in circles corresponds to intersections or overlaps showing which set is part of an intersection or which symptoms overlaps with which other symptoms(s). For example, panic and mutism form an intersection or overlap, and so does panic and phobia. Additionally, panic, mutism, phobia and separation also form an intersection. And so on…The black bar chart shows the frequencies for each intersection (or intersection size)."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#why-scripts-are-so-important",
+    "href": "best/scripting/scriptingR.html#why-scripts-are-so-important",
+    "title": "Scripting in R",
+    "section": "Why scripts are so important",
+    "text": "Why scripts are so important\n\nReproducibility: Scripts ensure that your workflow is organized in a manner that can be reproduced by others or by you at a later time. Everything from loading packages through loading data to final analysis and visualizations is documented in one place. In an R script.\nAutomation: I believe in the “easier-is-better” heuristic approach to learning. Well, not always, but don’t worry yet. If you, like myself find yourself repeating the same steps often (like data cleaning or generating specific plots), and also believe, even if only a little that “easier-is-better”, then follow me - haha!😄. A script allows you to automate these tasks and saves you a lot of time. Makes things easier!\nCollaboration: Some things cannot be shared, and I won’t share my caramel candies. Never! But my R scripts can definitely be shared. This makes it easier to collaborate on projects with colleagues. So that my colleagues can see exactly what steps I took and suggest improvements or changes. Well, not all of your suggestions or changes will be accepted by colleagues. Still, don’t worry. Move on!"
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#writing-r-scripts-in-the-editor",
+    "href": "best/scripting/scriptingR.html#writing-r-scripts-in-the-editor",
+    "title": "Scripting in R",
+    "section": "Writing R scripts in the Editor",
+    "text": "Writing R scripts in the Editor\nThe primary tool for writing scripts is the R editor, but we can also use other text editors. R script is the most commonly used for scripting, offering features like syntax highlighting, code completion, and direct execution of code. Some of these features are very helpful. For example, syntax highlighting helps differentiate between functions, variables, and comments, making code easier to read and debug. R script can also organize code with comments, meaningful variable names, and consistent formatting. As you have probably already seen, my codes have been annotated with comments that is very useful for handling complex tasks in R. While writing scripts, RStudio will suggests codes as you type, reducing the chances of errors and speeding up coding.\nSublime Text, Visual Studio Code, or even a basic text editors (e.g., Notepad++, TextEdit) can be used, though they might lack some R-specific features. The editor is where we compose and edit R scripts as such using a good editor can significantly enhance productivity."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#best-practices-when-scripting",
+    "href": "best/scripting/scriptingR.html#best-practices-when-scripting",
+    "title": "Scripting in R",
+    "section": "Best practices when scripting",
+    "text": "Best practices when scripting\n\nUse Comments: Comments start with # and are ignored by R when the script runs. Use them to explain your code. Have a look over my codes again and also see the example below\n\n\n# This function calculates the mean of a vector\nmean_value &lt;- mean(c(1, 2, 3, 4, 5))\n\n\nMeaningful Variable Names: Choose names that clearly describe the data or function of the variable.\n\n\n#Here, it is easier to know or remember that the object mean_value contains the mean of 1, 2, 3, 4, 5\nmean_value &lt;- mean(c(1, 2, 3, 4, 5)) \n\n\nConsistent Formatting: Stick to a consistent style (e.g., spacing, indentation) to make your code readable."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#opening-a-new-r-script",
+    "href": "best/scripting/scriptingR.html#opening-a-new-r-script",
+    "title": "Scripting in R",
+    "section": "Opening a new R script",
+    "text": "Opening a new R script\nNow, let me guide you through the process of creating a new R script within RStudio. Opening a new script is the first step in starting your R programming tasks. This is a very basic, yet crucial, task.\nSteps:\n\nIn RStudio:\n\nGo to File &gt; New File &gt; R Script.\nThis opens a blank script where you can start writing your R code.\nYou can immediately start writing R code in the newly opened script.\n\n\n\n\n\nOpening a new R script\n\n\n\nSaving the Script:\n\nIt is good practice to save your script right away.\nUse Ctrl+S (Windows) or Cmd+S (Mac) to save the script regularly as you write it. Always choose a descriptive file name.\nYou can also use the point-and-click function by going to File &gt; Save.\nIt is also good practice to save your script in a directory related to your project. RStudio projects are helpful for keeping everything organized. Look here for managing R projects\n\n\n\n\n\nSaving R Script for first time\n\n\nUp to this point, you are on your way to writing your first R script! But first, let’s look at how to send the code in the script from the editor to the console."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#sending-code-from-a-sourceeditor-to-the-console",
+    "href": "best/scripting/scriptingR.html#sending-code-from-a-sourceeditor-to-the-console",
+    "title": "Scripting in R",
+    "section": "Sending code from a source/editor to the console",
+    "text": "Sending code from a source/editor to the console\nThis section will show how to send code from the script to the R console for execution. This is essential for testing and running your code incrementally.\nSteps:\n\nHighlight Code:\n\nHighlight a section of code in your script.\n\nSend to Console:\n\nUse Ctrl+Enter (Windows) or Cmd+Enter (Mac) to send the selected code to the console.\n\nRun Entire Script:\n\nUse Ctrl+Shift+S (Windows) or Cmd+Shift+S (Mac) to run the entire script.\nYou can also use the point-and-click by going to the top-right corner of the source quadrant and clicking on RUN"
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#your-first-r-script",
+    "href": "best/scripting/scriptingR.html#your-first-r-script",
+    "title": "Scripting in R",
+    "section": "Your first R script",
+    "text": "Your first R script\nNow is the time for you to go through writing your first simple R script. The focus here is on basic operations that demonstrate the functionality of R. Writing your first script is an exciting step so we will try to perform some basic calculations and generate a plot.\nSteps:\n\nStart with a Comment:\n\nAlways begin with a comment to describe what the script does. Comments are written with a #.\n\n\n# This is my first R script. I am going to do some basic calculations and plotting.\n\nBasic Calculation:\n\nLet’s perform a simple calculation.\n\n\n\n# Calculate 2 plus 2\nresult &lt;- 2 + 2\n\n#Show results\nprint(result)  \n\n[1] 4\n\n\n\nAssign Values to Variables:\n\nYou can assign the result of any operation to a variable.\n\n\n\n#Assign 5 to x, and 3 to y\n x &lt;- 5\n y &lt;- 3\n \n#Find the sum of x + y and show the results\n sum_xy &lt;- x + y\n print(sum_xy)  \n\n[1] 8\n\n\n\nSimple Plotting:\n\nR has powerful plotting capabilities built-in. Here’s a basic example:\n\n\n\n#This code plots the numbers 1 through 10 on a simple scatter plot, labeling the axes.\nplot(1:10, main=\"Simple Plot\", \n     xlab=\"X Axis\", \n     ylab=\"Y Axis\") \n\n\n\n\n\nSave and Run the Script:\n\nSave your script and run it to see the results. In RStudio, you can select the code and press Ctrl+Enter to send it to the console."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#getting-help",
+    "href": "best/scripting/scriptingR.html#getting-help",
+    "title": "Scripting in R",
+    "section": "Getting help",
+    "text": "Getting help\nThis section provides guidance on where you can find more help if you encounter issues or want to learn more.\nResources:\n\nIPS resources: Here in IPS we have the R Club and the R Workshop seminar series. Follow the links to Teams channels for more information. The Quantitative Seminar Series in Psychology delivers a broad range of in-person and online quantitative methods and statistical modelling workshops. The last session is available here.\nR Help Files: Use ?function_name or help(function_name) to access built-in help for any function.\nOnline Communities: Stack Overflow, RStudio Community, and R-help mailing lists are great places to ask questions.\nR Documentation: Comprehensive manuals are available at the R project website.\nTutorials and Books: Recommend a few beginner-friendly books or online courses for further learning."
+  },
+  {
     "objectID": "best/Structuring_R_projects/Structuring_projects.html",
     "href": "best/Structuring_R_projects/Structuring_projects.html",
     "title": "Managing projects in R",
@@ -263,7 +340,7 @@
     "href": "best.html",
     "title": "QMRG’s Tips & Best Practices",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nWhy use scripting\n\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\nHow do I start a new project for data-analysis in R and RStudio? Which files and folder do I need to create? Where do I store my datafiles? Read on to find out!\n\n\n\nMatthias Mittner\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here.\n\n\n\nRStudio\n\n\nstatistics\n\n\n\n\n\n\n\nGerit Pfuhl\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuidelines for R at IPS\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\nJul 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nAre you an SPSS user? Look here\n\n\n\nSPSS\n\n\nRStudio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHumour page\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScripting in R\n\n\n\nRStudio\n\n\nscripts\n\n\n\nHow do I organize and track my workflow when working in R? Read on to find out more!\n\n\n\nFrederick Anyan\n\n\nAug 22, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nManaging projects in R\n\n\n\nRStudio\n\n\n\nHow do I start a new project for data-analysis in R and RStudio? Which files and folder do I need to create? Where do I store my datafiles? Read on to find out!\n\n\n\nMatthias Mittner\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew to statistics? Look here.\n\n\n\nRStudio\n\n\nstatistics\n\n\n\n\n\n\n\nGerit Pfuhl\n\n\nAug 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGuidelines for R at IPS\n\n\n\n\n\n\nHåvard R. Karlsen\n\n\nJul 30, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "books/appstatR.html",
@@ -285,5 +362,12 @@
     "title": "Software Packages",
     "section": "",
     "text": "Click here for a collection of R and Stata packages that can be used for data analysis.\n\nR packages\n\nrmedsem: R package for statistical mediation analysis, developed in collaboration with Matthias Mittner.\nmmiss: R package to tabulate counts and percentages of missing values.\nrrelicoef: R package to compute Raykov’s factor reliability coefficient.\nrmint: R package to examine across-groups equivalence of confirmatory factor analysis (CFA) measurement model parameters.\nrcondisc: R package to perform convergent and discriminant validity assessment in CFA.\nrvimp: R package to assess the relative importance of predictors of a regression model.\n\n\n\nStata packages\n\nplssem: Stata package to implement Partial least squares structural equation modelling (PLS-SEM), developed in collaboration with Sergio Venturini.\nmedsem: Stata package for statistical mediation analysis.\nmint: Stata module to examine across-groups equivalence of confirmatory factor analysis (CFA) measurement model parameters.\ncondisc: Stata module to perform convergent and discriminant validity assessment in CFA.\nrelicoef: Stata module to compute Raykov’s factor reliability coefficient.\nfsdet: Stata module to compute Factor score determinacy coefficient.\nvaf: Stata module to compute mediation effect in SEM.\nsumscale: Stata module to generate summated scales.\nregcheck: Stata module to examine regression assumptions.\nregcoef: Stata module to compute coefficients for quantifying relative importance of predictors.\nsqmc: Stata module to compute squared multiple correlation.\nlogtest: Stata module to test significance of a predictor in logistic models.\npercat Stata module to perform percentile-based categorisation.\ncv: Stata module to compute coefficient of variation after regress."
+  },
+  {
+    "objectID": "best/scripting/scriptingR.html#sending-code-from-editor-to-the-console",
+    "href": "best/scripting/scriptingR.html#sending-code-from-editor-to-the-console",
+    "title": "Scripting in R",
+    "section": "Sending code from editor to the console",
+    "text": "Sending code from editor to the console\nThis section will show how to send R script code from the editor pane to the R console pane for execution. This is essential for testing and running your code incrementally.\nSteps:\n\nHighlight Code:\n\nHighlight a section of code in your script.\nYou can also move your mouse pointer to the start line of a code\n\nSend to Console:\n\nUse Ctrl+Enter (Windows) or Cmd+Enter (Mac) to send the selected code to the console.\n\nRun Entire Script:\n\nUse Ctrl+Shift+S (Windows) or Cmd+Shift+S (Mac) to run the entire script.\nYou can also use the point-and-click by going to the top-right corner of the source pane and clicking on Run"
   }
 ]

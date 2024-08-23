@@ -1,5 +1,0 @@
----
-title: 'Why use scripting'
-image: ""
-categories: [RStudio]
----
