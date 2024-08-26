@@ -188,7 +188,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#writing-r-scripts-in-the-editor" id="toc-writing-r-scripts-in-the-editor" class="nav-link" data-scroll-target="#writing-r-scripts-in-the-editor">Writing R scripts in the Editor</a></li>
   <li><a href="#best-practices-when-scripting" id="toc-best-practices-when-scripting" class="nav-link" data-scroll-target="#best-practices-when-scripting">Best practices when scripting</a></li>
   <li><a href="#opening-a-new-r-script" id="toc-opening-a-new-r-script" class="nav-link" data-scroll-target="#opening-a-new-r-script">Opening a new R script</a></li>
-  <li><a href="#sending-code-from-editor-to-the-console" id="toc-sending-code-from-editor-to-the-console" class="nav-link" data-scroll-target="#sending-code-from-editor-to-the-console">Sending code from editor to the console</a></li>
+  <li><a href="#sending-code-from-editor-to-the-console" id="toc-sending-code-from-editor-to-the-console" class="nav-link" data-scroll-target="#sending-code-from-editor-to-the-console">Sending code from editor to the Console</a></li>
   <li><a href="#your-first-r-script" id="toc-your-first-r-script" class="nav-link" data-scroll-target="#your-first-r-script">Your first R script</a></li>
   <li><a href="#function-argument-and-parameters" id="toc-function-argument-and-parameters" class="nav-link" data-scroll-target="#function-argument-and-parameters">Function, Argument, and Parameters</a>
   <ul class="collapse">
@@ -284,7 +284,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="components-of-a-typical-script" class="level2">
 <h2 class="anchored" data-anchor-id="components-of-a-typical-script">Components of a typical script</h2>
-<p>Comments in R are written with a <code>#</code>. For example, <code>#Load the UpSetR package to access the upset () function</code></p>
+<p>Comments in R are written with a <code>#</code>. For example, <code>#Load the UpSetR package to access the upset() function</code></p>
 <ul>
 <li><strong>Loading Libraries:</strong> Most scripts begin by loading the necessary R packages using the <code>library()</code> function. Let’s load these two packages.</li>
 </ul>
@@ -372,7 +372,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>mean_value <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li><strong>Consistent Formatting:</strong> Stick to a consistent style (e.g., spacing, indentation) to make your code readable.</li>
+<li><strong>Consistent Formatting:</strong> Stick to a consistent style (e.g., spacing, indentation) to make your code readable. You can read more about the <a href="https://style.tidyverse.org/index.html">tidyverse style guide</a>.</li>
 </ul>
 </section>
 <section id="opening-a-new-r-script" class="level2">
@@ -411,14 +411,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Up to this point, you are on your way to writing your first R script! But first, let’s look at how to send the code in the script from the editor to the console.</p>
 </section>
 <section id="sending-code-from-editor-to-the-console" class="level2">
-<h2 class="anchored" data-anchor-id="sending-code-from-editor-to-the-console">Sending code from editor to the console</h2>
+<h2 class="anchored" data-anchor-id="sending-code-from-editor-to-the-console">Sending code from editor to the Console</h2>
 <p>This section will show how to send R script code from the editor pane to the R console pane for execution. This is essential for testing and running your code incrementally.</p>
 <p><strong>Steps:</strong></p>
 <ol type="1">
 <li><strong>Highlight Code:</strong>
 <ul>
 <li>Highlight a section of code in your script.</li>
-<li>You can also move your mouse pointer to the start line of a code</li>
+<li>You can also move your cursor to the code you want to run</li>
 </ul></li>
 <li><strong>Send to Console:</strong>
 <ul>
@@ -500,30 +500,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="function-argument-and-parameters" class="level1">
 <h1>Function, Argument, and Parameters</h1>
-<p>This section introduces the fundamental concept of <strong><em>functions</em></strong> in R, which are predefined reusable blocks of code that perform specific tasks. Functions take inputs called arguments or parameters. Understanding how functions, arguments, and parameters work together is crucial for efficient coding and advancing your scripting. Functions are at the heart of R programming. Functions are organized in blocks, are reusable and so they make your code modular and easier to manage. They allow us to perform specific tasks repeatedly without rewriting code. For example, <code>print()</code> displays output, and <code>plot()</code> creates graphs.</p>
+<p>This section introduces the fundamental concept of <strong><em>functions</em></strong> in R, which are predefined reusable blocks of code that perform specific tasks. Any proficient R user can write their own functions. Functions take inputs called arguments or parameters. Understanding how functions, arguments, and parameters work together is crucial for efficient coding and advancing your scripting. Functions are at the heart of R programming. Functions are organized in blocks, are reusable and so they make your code modular and easier to manage. They allow us to perform specific tasks repeatedly without rewriting code. For example, <code>print()</code> displays output, and <code>plot()</code> creates graphs.</p>
 <ul>
 <li><strong>Example:</strong></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Here is my function to square x</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  my_function <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Here is a function to square x</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  square_this <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>      <span class="fu">return</span>(x<span class="sc">^</span><span class="dv">2</span>)</span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  result <span class="ot">&lt;-</span> <span class="fu">my_function</span>(<span class="dv">3</span>)</span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(result)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co">#Now we can use our function to square 3 or any other number</span></span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  result <span class="ot">&lt;-</span> <span class="fu">square_this</span>(<span class="dv">3</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(result)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 9</code></pre>
 </div>
 </div>
 <ul>
-<li>Here, <code>my_function</code> takes an input <code>x</code>, squares it, and returns the result.</li>
+<li>Here, <code>square_this</code> takes an input <code>x</code>, squares it, and returns the result.</li>
 </ul>
 <p><strong>Arguments and Parameters:</strong></p>
 <ul>
 <li><strong>Arguments:</strong> These are the actual values you pass to a function to modify its behavior. In the example above, <code>3</code> is the argument.</li>
 <li><strong>Parameters:</strong> These are the variables defined in the function’s signature that receive the argument values, and used to describe the inputs in function definitions. In <code>my_function</code>, <code>x</code> is a parameter.</li>
 </ul>
-<p><strong>Built-In RStudio functions:</strong></p>
+<p><strong>Built-in RStudio functions:</strong></p>
 <ul>
 <li>R comes with many built-in functions like <code>mean()</code>, <code>sum()</code>, and <code>plot()</code>. For example:</li>
 </ul>

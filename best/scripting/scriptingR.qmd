@@ -37,7 +37,7 @@ Scripts are essential for reproducibility, as they allow you to document and tra
 
 ## Components of a typical script
 
-Comments in R are written with a `#`. For example, `#Load the UpSetR package to access the upset () function`
+Comments in R are written with a `#`. For example, `#Load the UpSetR package to access the upset() function`
 
 -   **Loading Libraries:** Most scripts begin by loading the necessary R packages using the `library()` function. Let's load these two packages.
 
@@ -123,7 +123,7 @@ mean_value <- mean(c(1, 2, 3, 4, 5))
 mean_value <- mean(c(1, 2, 3, 4, 5)) 
 ```
 
--   **Consistent Formatting:** Stick to a consistent style (e.g., spacing, indentation) to make your code readable.
+-   **Consistent Formatting:** Stick to a consistent style (e.g., spacing, indentation) to make your code readable. You can read more about the [tidyverse style guide](https://style.tidyverse.org/index.html). 
 
 ## Opening a new R script
 
@@ -148,7 +148,7 @@ Now, let me guide you through the process of creating a new R script within RStu
 
 Up to this point, you are on your way to writing your first R script! But first, let's look at how to send the code in the script from the editor to the console.
 
-## Sending code from editor to the console
+## Sending code from editor to the Console
 
 This section will show how to send R script code from the editor pane to the R console pane for execution. This is essential for testing and running your code incrementally.
 
@@ -156,7 +156,7 @@ This section will show how to send R script code from the editor pane to the R c
 
 1.  **Highlight Code:**
     -   Highlight a section of code in your script.
-    -   You can also move your mouse pointer to the start line of a code
+    -   You can also move your cursor to the code you want to run
 2.  **Send to Console:**
     -   Use `Ctrl+Enter` (Windows) or `Cmd+Enter` (Mac) to send the selected code to the console.
 3.  **Run Entire Script:**
@@ -220,27 +220,29 @@ plot(1:10, main="Simple Plot",
 
 # Function, Argument, and Parameters
 
-This section introduces the fundamental concept of ***functions*** in R, which are predefined reusable blocks of code that perform specific tasks. Functions take inputs called arguments or parameters. Understanding how functions, arguments, and parameters work together is crucial for efficient coding and advancing your scripting. Functions are at the heart of R programming. Functions are organized in blocks, are reusable and so they make your code modular and easier to manage. They allow us to perform specific tasks repeatedly without rewriting code. For example, `print()` displays output, and `plot()` creates graphs.
+This section introduces the fundamental concept of ***functions*** in R, which are predefined reusable blocks of code that perform specific tasks. Any proficient R user can write their own functions. Functions take inputs called arguments or parameters. Understanding how functions, arguments, and parameters work together is crucial for efficient coding and advancing your scripting. Functions are at the heart of R programming. Functions are organized in blocks, are reusable and so they make your code modular and easier to manage. They allow us to perform specific tasks repeatedly without rewriting code. For example, `print()` displays output, and `plot()` creates graphs.
 
 -   **Example:**
 
 ```{r}
-#Here is my function to square x
-  my_function <- function(x) {
+#Here is a function to square x
+  square_this <- function(x) {
       return(x^2)
   }
-  result <- my_function(3)
+
+#Now we can use our function to square 3 or any other number
+  result <- square_this(3)
   print(result)  
 ```
 
--   Here, `my_function` takes an input `x`, squares it, and returns the result.
+-   Here, `square_this` takes an input `x`, squares it, and returns the result.
 
 **Arguments and Parameters:**
 
 -   **Arguments:** These are the actual values you pass to a function to modify its behavior. In the example above, `3` is the argument.
 -   **Parameters:** These are the variables defined in the function's signature that receive the argument values, and used to describe the inputs in function definitions. In `my_function`, `x` is a parameter.
 
-**Built-In RStudio functions:**
+**Built-in RStudio functions:**
 
 -   R comes with many built-in functions like `mean()`, `sum()`, and `plot()`. For example:
 
