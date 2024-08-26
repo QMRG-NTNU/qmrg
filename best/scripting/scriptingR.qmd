@@ -220,7 +220,7 @@ plot(1:10, main="Simple Plot",
 
 # Function, Argument, and Parameters
 
-This section introduces the fundamental concept of ***functions*** in R, which are predefined reusable blocks of code that perform specific tasks. Any proficient R user can write their own functions. Functions take inputs called arguments or parameters. Understanding how functions, arguments, and parameters work together is crucial for efficient coding and advancing your scripting. Functions are at the heart of R programming. Functions are organized in blocks, are reusable and so they make your code modular and easier to manage. They allow us to perform specific tasks repeatedly without rewriting code. For example, `print()` displays output, and `plot()` creates graphs.
+This section introduces the fundamental concept of functions in R, which are predefined reusable blocks of code that perform specific tasks. Any proficient R user can write their own functions. Functions take inputs called arguments or parameters. Understanding how functions, arguments, and parameters work together is crucial for efficient coding and advancing your scripting. Functions are at the heart of R programming. Functions are organized in blocks, are reusable and so they make your code modular and easier to manage. They allow us to perform specific tasks repeatedly without rewriting code. For example, `print()` displays output, and `plot()` creates graphs.
 
 -   **Example:**
 
@@ -240,7 +240,7 @@ This section introduces the fundamental concept of ***functions*** in R, which a
 **Arguments and Parameters:**
 
 -   **Arguments:** These are the actual values you pass to a function to modify its behavior. In the example above, `3` is the argument.
--   **Parameters:** These are the variables defined in the function's signature that receive the argument values, and used to describe the inputs in function definitions. In `my_function`, `x` is a parameter.
+-   **Parameters:** These are the variables defined in the function's signature that receive the argument values, and used to describe the inputs in function definitions. In `square_this`, `x` is a parameter.
 
 **Built-in RStudio functions:**
 
