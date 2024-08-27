@@ -37,7 +37,7 @@ Scripts are essential for reproducibility, as they allow you to document and tra
 
 ## Components of a typical script
 
-Comments in R are written with a `#`. For example, `#Load the UpSetR package to access the upset() function`
+Comments in R are written with a `#`. For example, `#Load the UpSetR package to access the upset() function`. While you can keep all your codes in a single script, you may also want to have several scripts for different levels or stages of your workflow. See **Importing and analyzing data** subsection in [managing projects in R](https://qmrg-ntnu.github.io/qmrg/best/Structuring_R_projects/Structuring_projects.html)
 
 -   **Loading Libraries:** Most scripts begin by loading the necessary R packages using the `library()` function. Let's load these two packages.
 
