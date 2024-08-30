@@ -50,7 +50,7 @@ library(ggplot2) #Load ggplot2 for data visualization
 
 ```{r}
 #Load data
-data <- read.csv("/Volumes/anyan/qmrg_group/best/scripting/dataupset.csv") 
+data <- read.csv("/Volumes/anyan-1/qmrg_group/best/scripting/dataupset.csv") 
 
 #Assign names to variables in the dataset
 names(data) <- c("separation", "mutism", "phobia", "social", "panic", "anxiety", "depression", "ptsd") 
@@ -258,7 +258,7 @@ This section provides guidance on where you can find more help if you encounter 
 
 **Resources:**
 
--   **IPS resources:** Here in IPS we have the [R Club](https://teams.microsoft.com/l/channel/19%3Ac3b2637023d8472786e925aec62be38c%40thread.tacv2/R%20club?groupId=266a2928-87c5-4df8-8d48-885667088670) and the [R Workshop seminar series](https://teams.microsoft.com/l/channel/19%3A161c6fc8cb2a48b7818ffffacb303040%40thread.tacv2/R%20Workshop%20Series%20by%20QMRG?groupId=266a2928-87c5-4df8-8d48-885667088670). Follow the links to Teams channels for more information. The Quantitative Seminar Series in Psychology delivers a broad range of in-person and online quantitative methods and statistical modelling workshops. [The last session is available here](https://frederickanyan.github.io/workshops/NTNU_2023_01_Dec_R/LGCM_R.html).
+-   **IPS resources:** Here in IPS we have the R Club and the R Workshop seminar series. Join on Teams for more information. The Quantitative Seminar Series in Psychology delivers a broad range of in-person and online quantitative methods and statistical modelling workshops. [The last session is available here](https://frederickanyan.github.io/workshops/NTNU_2023_01_Dec_R/LGCM_R.html).
 -   **R Help Files:** Use `?function_name` or `help(function_name)` to access built-in help for any function.
 -   **Online Communities:** Stack Overflow, RStudio Community, and R-help mailing lists are great places to ask questions.
 -   **R Documentation:** Comprehensive manuals are available at the [R project website](https://www.r-project.org).
